@@ -56,7 +56,7 @@
     <string name="please_wait">잠시 기다려 주세요</string>
     <string name="search_hint">검색&#8230;</string>
     <string name="backpack_add">스크립트 모음에 추가</string>
-    <string name="share_website_text">공유</string>
+    <string name="share_website_text">share.catrob.at</string>
     <!-- Security warning dialog -->
     <string name="security_warning_dialog_msg">당신이 다운로드한 프로젝트는 뒤에서 당신의 목소리를 들을 수 있을 뿐만 아니라 인터넷으로 데이터를 보냅니다. 이는 위험하지 않을 수 있으며 목적을 달성하는 데에 필수적일 수 있습니다. 그러나 프로젝트가 안전하게 진행되고 있을 때 당신이 무엇을 말하는지 확실히 해주세요. 확실하지 않을 경우, 다운로드된 프로젝트를 삭제해 주세요. 또한 만약 그 프로젝트가 유해하다는 것이 확실할 경우, 당신은 카로봇 커뮤니티 플랫폼의 해당 페이지에 그 프로젝트를 신고할 수 있습니다.</string>
     <!-- Replace Api dialog -->
@@ -1580,6 +1580,7 @@
     <string name="formula_editor_object_brightness" tools:ignore="UnusedResources">밝기</string>
     <string name="formula_editor_object_size" tools:ignore="UnusedResources">크기</string>
     <string name="formula_editor_object_rotation" tools:ignore="UnusedResources">방향</string>
+    <string name="formula_editor_object_rotation_look" tools:ignore="UnusedResources">방향보기</string>
     <string name="formula_editor_object_layer" tools:ignore="UnusedResources">레이어</string>
     <string name="formula_editor_object_x_velocity" tools:ignore="UnusedResources">x축 속도</string>
     <string name="formula_editor_object_y_velocity" tools:ignore="UnusedResources">y축 속도</string>
@@ -1782,4 +1783,6 @@
     <string name="no_variable_selected">선택된 변수가 없습니다.</string>
     <string name="find">찾기</string>
     <string name="no_results_found">검색 결과가 없습니다</string>
+    <string name="cut">절단</string>
+    <string name="paste">풀</string>
 </resources>

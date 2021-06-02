@@ -56,7 +56,7 @@
     <string name="please_wait">Espere por favor</string>
     <string name="search_hint">Búsqueda&#8230;</string>
     <string name="backpack_add">Agregar a la Mochila</string>
-    <string name="share_website_text">www.pocketcode.org</string>
+    <string name="share_website_text">share.catrob.at</string>
     <!-- Security warning dialog -->
     <string name="security_warning_dialog_msg">El proyecto que ha descargado escucha su voz. 
         en segundo plano y también envía datos a Internet. Esto puede ser inofensivo y necesario
@@ -947,7 +947,7 @@
         <item quantity="one">"segundo"</item>
         <item quantity="other">"segundos"</item>
     </plurals>
-    <string name="brick_collision_receive" tools:ignore="UnusedResources">Cuando haya una colisión fisica con</string>
+    <string name="brick_collision_receive" tools:ignore="UnusedResources">Cuando rebotas</string>
     <string name="collision_with_anything">cualquier cosa</string>
     <string name="brick_broadcast_receive" tools:ignore="UnusedResources">Cuando reciba</string>
     <string name="brick_broadcast" tools:ignore="UnusedResources">Difundir</string>
@@ -1656,6 +1656,7 @@ necesita acceso de lectura y escritura a ella. Siempre puedes cambiar los permis
     <string name="formula_editor_object_brightness" tools:ignore="UnusedResources">brillo</string>
     <string name="formula_editor_object_size" tools:ignore="UnusedResources">tamaño</string>
     <string name="formula_editor_object_rotation" tools:ignore="UnusedResources">dirección</string>
+    <string name="formula_editor_object_rotation_look" tools:ignore="UnusedResources">dirección de la mirada</string>
     <string name="formula_editor_object_layer" tools:ignore="UnusedResources">capa</string>
     <string name="formula_editor_object_x_velocity" tools:ignore="UnusedResources">velocidad x</string>
     <string name="formula_editor_object_y_velocity" tools:ignore="UnusedResources">velocidad y</string>
@@ -1866,4 +1867,6 @@ necesita acceso de lectura y escritura a ella. Siempre puedes cambiar los permis
     <string name="no_variable_selected">Ninguna variable seleccionada</string>
     <string name="find">Encuentre</string>
     <string name="no_results_found">No se han encontrado resultados</string>
+    <string name="cut">Cortar</string>
+    <string name="paste">Pegar</string>
 </resources>

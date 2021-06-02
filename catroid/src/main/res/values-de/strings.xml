@@ -159,7 +159,7 @@
     <string name="preference_access_summary_profile_fenrir">Großer Elemente-Abstand, Drag\'n\'Drop
        Verzögerung</string>
     <string name="preference_access_title_profile_tiro">Tiro</string>
-    <string name="preference_access_summary_profile_tiro">Start Bausteine</string>
+    <string name="preference_access_summary_profile_tiro">Beginner modus</string>
     <!-- Lego/Drone/Raspi/Chromecast/Embroidery -->
     <string name="preference_title_enable_quadcopter_bricks">Parrot AR.Drone 2.0 Bausteine</string>
     <string name="preference_description_quadcopter_bricks">Erlaubt die Steuerung von ARDrone 2.0 Quadcoptern</string>
@@ -1642,6 +1642,7 @@
     <string name="formula_editor_object_brightness" tools:ignore="UnusedResources">Helligkeit</string>
     <string name="formula_editor_object_size" tools:ignore="UnusedResources">Größe</string>
     <string name="formula_editor_object_rotation" tools:ignore="UnusedResources">Richtung</string>
+    <string name="formula_editor_object_rotation_look" tools:ignore="UnusedResources">Blickrichtung</string>
     <string name="formula_editor_object_layer" tools:ignore="UnusedResources">Ebene</string>
     <string name="formula_editor_object_x_velocity" tools:ignore="UnusedResources">x Geschwindigkeit</string>
     <string name="formula_editor_object_y_velocity" tools:ignore="UnusedResources">y Geschwindigkeit</string>
@@ -1858,4 +1859,6 @@
     <string name="no_variable_selected">Keine Variable ausgewählt</string>
     <string name="find">Finden</string>
     <string name="no_results_found">Keine Ergebnisse gefunden</string>
+    <string name="cut">Ausschneiden</string>
+    <string name="paste">Einfügen</string>
 </resources>

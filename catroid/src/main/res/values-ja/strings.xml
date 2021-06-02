@@ -1615,6 +1615,7 @@
     <string name="formula_editor_object_brightness" tools:ignore="UnusedResources">輝度</string>
     <string name="formula_editor_object_size" tools:ignore="UnusedResources">サイズ</string>
     <string name="formula_editor_object_rotation" tools:ignore="UnusedResources">方向</string>
+    <string name="formula_editor_object_rotation_look" tools:ignore="UnusedResources">視線方向</string>
     <string name="formula_editor_object_layer" tools:ignore="UnusedResources">レイヤー</string>
     <string name="formula_editor_object_x_velocity" tools:ignore="UnusedResources">倍速</string>
     <string name="formula_editor_object_y_velocity" tools:ignore="UnusedResources">Y速度</string>
@@ -1827,4 +1828,6 @@
     <string name="no_variable_selected">変数が選択されていません</string>
     <string name="find">探す</string>
     <string name="no_results_found">結果は見つかりませんでした。</string>
+    <string name="cut">切り取り</string>
+    <string name="paste">貼付け</string>
 </resources>

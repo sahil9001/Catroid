@@ -1621,6 +1621,7 @@ membutuhkan akses baca dan tulis untuk itu. Anda selalu dapat mengubah izin mela
     <string name="formula_editor_object_brightness" tools:ignore="UnusedResources">kecerahan</string>
     <string name="formula_editor_object_size" tools:ignore="UnusedResources">ukuran</string>
     <string name="formula_editor_object_rotation" tools:ignore="UnusedResources">arah</string>
+    <string name="formula_editor_object_rotation_look" tools:ignore="UnusedResources">lihat arah</string>
     <string name="formula_editor_object_layer" tools:ignore="UnusedResources">lapisan</string>
     <string name="formula_editor_object_x_velocity" tools:ignore="UnusedResources">x_percepatan</string>
     <string name="formula_editor_object_y_velocity" tools:ignore="UnusedResources">y_percepatan</string>
@@ -1843,4 +1844,6 @@ membutuhkan akses baca dan tulis untuk itu. Anda selalu dapat mengubah izin mela
     <string name="no_variable_selected">Tidak ada variabel yang dipilih</string>
     <string name="find">Temukan</string>
     <string name="no_results_found">Tidak ada hasil yang ditemukan</string>
+    <string name="cut">Memotong</string>
+    <string name="paste">Tempel</string>
 </resources>

@@ -56,7 +56,7 @@
     <string name="please_wait">الرجاء الانتظار</string>
     <string name="search_hint">جاري البحث&#8230;</string>
     <string name="backpack_add">إضافة الى حزمة الظهر</string>
-    <string name="share_website_text">www.pocketcode.org</string>
+    <string name="share_website_text">share.catrob.at</string>
     <!-- Security warning dialog -->
     <string name="security_warning_dialog_msg">المشروع الذي قمت بتنزيله، يستمع إلى صوتك
         في الخلفية وكذلك يرسل معلومات إلى الإنترنت. هذا قد يكون غير ضار، وضروري
@@ -1819,6 +1819,7 @@
     <string name="formula_editor_object_brightness" tools:ignore="UnusedResources">السطوع</string>
     <string name="formula_editor_object_size" tools:ignore="UnusedResources">الحجم</string>
     <string name="formula_editor_object_rotation" tools:ignore="UnusedResources">الاتجاه</string>
+    <string name="formula_editor_object_rotation_look" tools:ignore="UnusedResources">انظر الاتجاه</string>
     <string name="formula_editor_object_layer" tools:ignore="UnusedResources">طبقة</string>
     <string name="formula_editor_object_x_velocity" tools:ignore="UnusedResources">سرعة_س</string>
     <string name="formula_editor_object_y_velocity" tools:ignore="UnusedResources">سرعة_ص</string>
@@ -2026,4 +2027,6 @@
     <string name="no_variable_selected">لا يوجد متغير محدد</string>
     <string name="find">تجد</string>
     <string name="no_results_found">لم يتم العثور على نتائج</string>
+    <string name="cut">قطع</string>
+    <string name="paste">لصق</string>
 </resources>

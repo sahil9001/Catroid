@@ -58,7 +58,7 @@
 1. खोजना
 2. ढूंढ़ना</string>
     <string name="backpack_add">बैग_में_जोड़ें</string>
-    <string name="share_website_text">www.pocketcode.org</string>
+    <string name="share_website_text">share.catrob.at</string>
     <!-- Security warning dialog -->
     <string name="security_warning_dialog_msg">आपने जिस प्रोजेक्ट को डाउनलोड किया है, वह आपकी आवाज को सुनता है
          पृष्ठभूमि में और इंटरनेट पर डेटा भी भेजता है। यह हानिरहित और आवश्यक हो सकता है
@@ -1671,6 +1671,7 @@
     <string name="formula_editor_object_brightness" tools:ignore="UnusedResources">चमक</string>
     <string name="formula_editor_object_size" tools:ignore="UnusedResources">आकार</string>
     <string name="formula_editor_object_rotation" tools:ignore="UnusedResources">दिशा</string>
+    <string name="formula_editor_object_rotation_look" tools:ignore="UnusedResources">दिशा देखो</string>
     <string name="formula_editor_object_layer" tools:ignore="UnusedResources">परत</string>
     <string name="formula_editor_object_x_velocity" tools:ignore="UnusedResources">x वेग</string>
     <string name="formula_editor_object_y_velocity" tools:ignore="UnusedResources">y वेग</string>
@@ -1894,4 +1895,6 @@
     <string name="no_variable_selected">कोई चर नहीं चुना गया</string>
     <string name="find">खोज</string>
     <string name="no_results_found">कोई परिणाम नहीं मिला</string>
+    <string name="cut">कट गया</string>
+    <string name="paste">पेस्ट करें</string>
 </resources>

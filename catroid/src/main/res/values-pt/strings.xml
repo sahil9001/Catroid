@@ -363,7 +363,7 @@
     <string name="look_name_label">Look name</string>
     <string name="sound_name_label">Nome do som</string>
     <string name="nfc_tag_name_label">NFC tag name</string>
-    <string name="string_label">Text</string>
+    <string name="string_label">Texto</string>
     <string name="data_label">Nome</string>
     <string name="keyword_label">Insert keyword</string>
     <string name="html_label">Insert HTML text</string>
@@ -528,7 +528,7 @@
     <string name="default_tag_name">nfc_tag</string>
     <string name="tnf_empty">Empty</string>
     <string name="tnf_external_type">External type</string>
-    <string name="tnf_mime_media">Text</string>
+    <string name="tnf_mime_media">Texto</string>
     <string name="tnf_well_known_http">HTTP</string>
     <string name="tnf_well_known_https">HTTPS</string>
     <string name="tnf_well_known_tel">Phone number</string>
@@ -864,9 +864,9 @@
     <string name="brick_edit_background">Edit background</string>
     <string name="brick_delete_look" tools:ignore="UnusedResources">Delete look</string>
     <string name="brick_delete_background">Delete background</string>
-    <string name="brick_flash" tools:ignore="UnusedResources">Turn flashlight</string>
-    <string name="brick_flash_on" tools:ignore="UnusedResources">on</string>
-    <string name="brick_flash_off" tools:ignore="UnusedResources">off</string>
+    <string name="brick_flash" tools:ignore="UnusedResources">Mudar a lanterna para</string>
+    <string name="brick_flash_on" tools:ignore="UnusedResources">activado</string>
+    <string name="brick_flash_off" tools:ignore="UnusedResources">desactivado</string>
     <string name="brick_vibration" tools:ignore="UnusedResources">Vibrar para</string>
     <string name="brick_ask_label" tools:ignore="UnusedResources">Ask</string>
     <string name="brick_ask_store" tools:ignore="UnusedResources">and store written answer in</string>
@@ -953,7 +953,7 @@
     </plurals>
     <string name="brick_collision_receive" tools:ignore="UnusedResources">When you bounce off</string>
     <string name="collision_with_anything">any edge, actor, or object</string>
-    <string name="brick_broadcast_receive" tools:ignore="UnusedResources">When you receive</string>
+    <string name="brick_broadcast_receive" tools:ignore="UnusedResources">Quando receber</string>
     <string name="brick_broadcast" tools:ignore="UnusedResources">Transmitir</string>
     <string name="brick_broadcast_wait" tools:ignore="UnusedResources">Transmitir e aguardar</string>
     <string name="brick_scene_transition" tools:ignore="UnusedResources">Continue scene</string>
@@ -1248,8 +1248,8 @@ needs read and write access to it. You can always change permissions through you
     <string name="none_paired">Não foram encontrados dispositivos pareados</string>
     <!--  -->
     <!-- Arduino Bricks -->
-    <string name="brick_arduino_select_digital_value" tools:ignore="UnusedResources">Set Arduino digital pin</string>
-    <string name="brick_arduino_select_analog_value" tools:ignore="UnusedResources">Set Arduino PWM~ pin</string>
+    <string name="brick_arduino_select_digital_value" tools:ignore="UnusedResources">Alterar o pino digital do Arduino para</string>
+    <string name="brick_arduino_select_analog_value" tools:ignore="UnusedResources">Alterar o pino PWM (~) do Arduino para</string>
     <string name="brick_arduino_set_pin_value_to" tools:ignore="UnusedResources">para</string>
     <!--  -->
     <!-- Raspi Bricks -->
@@ -1534,7 +1534,7 @@ needs read and write access to it. You can always change permissions through you
     <string name="formula_editor_function_exp_parameter">(0)</string>
     <string name="formula_editor_function_power" tools:ignore="UnusedResources">power</string>
     <string name="formula_editor_function_power_parameter">(2,3)</string>
-    <string name="formula_editor_function_floor" tools:ignore="UnusedResources">floor</string>
+    <string name="formula_editor_function_floor" tools:ignore="UnusedResources">chão</string>
     <string name="formula_editor_function_floor_parameter">(0.7)</string>
     <string name="formula_editor_function_ceil" tools:ignore="UnusedResources">ceiling</string>
     <string name="formula_editor_function_ceil_parameter">(0.3)</string>
@@ -1669,6 +1669,7 @@ needs read and write access to it. You can always change permissions through you
     <string name="formula_editor_object_brightness" tools:ignore="UnusedResources">brilho</string>
     <string name="formula_editor_object_size" tools:ignore="UnusedResources">tamanho</string>
     <string name="formula_editor_object_rotation" tools:ignore="UnusedResources">direção</string>
+    <string name="formula_editor_object_rotation_look" tools:ignore="UnusedResources">look direction</string>
     <string name="formula_editor_object_layer" tools:ignore="UnusedResources">camada</string>
     <string name="formula_editor_object_x_velocity" tools:ignore="UnusedResources">x_velocidade</string>
     <string name="formula_editor_object_y_velocity" tools:ignore="UnusedResources">y_velocidade</string>
@@ -1800,8 +1801,8 @@ needs read and write access to it. You can always change permissions through you
     <!-- -->
     <!-- Camera related strings -->
     <string name="brick_video" tools:ignore="UnusedResources">Turn camera</string>
-    <string name="video_brick_camera_on" tools:ignore="UnusedResources">on</string>
-    <string name="video_brick_camera_off" tools:ignore="UnusedResources">off</string>
+    <string name="video_brick_camera_on" tools:ignore="UnusedResources">activado</string>
+    <string name="video_brick_camera_off" tools:ignore="UnusedResources">desactivado</string>
     <string name="brick_choose_camera" tools:ignore="UnusedResources">Use camera</string>
     <string name="choose_camera_front" tools:ignore="UnusedResources">front</string>
     <string name="choose_camera_back" tools:ignore="UnusedResources">rear</string>
@@ -1892,4 +1893,6 @@ needs read and write access to it. You can always change permissions through you
     <string name="no_variable_selected">No variable selected</string>
     <string name="find">Find</string>
     <string name="no_results_found">No results found</string>
+    <string name="cut">Cut</string>
+    <string name="paste">Paste</string>
 </resources>

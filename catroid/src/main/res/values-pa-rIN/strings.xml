@@ -1697,6 +1697,7 @@
     <string name="formula_editor_object_brightness" tools:ignore="UnusedResources">ਚਮਕ</string>
     <string name="formula_editor_object_size" tools:ignore="UnusedResources">ਅਕਾਰ</string>
     <string name="formula_editor_object_rotation" tools:ignore="UnusedResources">ਦਿਸ਼ਾ</string>
+    <string name="formula_editor_object_rotation_look" tools:ignore="UnusedResources">दिशा देखो</string>
     <string name="formula_editor_object_layer" tools:ignore="UnusedResources">ਪਰਤ</string>
     <string name="formula_editor_object_x_velocity" tools:ignore="UnusedResources">x ਵੇਗ</string>
     <string name="formula_editor_object_y_velocity" tools:ignore="UnusedResources">y ਵੇਗ</string>
@@ -1916,4 +1917,6 @@
     <string name="no_variable_selected">ਕੋਈ ਵੇਰੀਏਬਲ ਨਹੀਂ ਚੁਣਿਆ</string>
     <string name="find">ਲੱਭੋ</string>
     <string name="no_results_found">ਕੋਈ ਨਤੀਜਾ ਨਹੀਂ ਮਿਲਿਆ</string>
+    <string name="cut">ਕੱਟੋ</string>
+    <string name="paste">ਚਿਪਕਾਓ</string>
 </resources>

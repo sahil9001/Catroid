@@ -1616,7 +1616,7 @@ Jeśli jednak nie chcesz tego robić, możesz skorzystać z naszych bezpłatnych
     <string name="formula_editor_function_arduino_read_pin_value_digital" tools:ignore="UnusedResources">arduino_cyfrowe_wyjście</string>
     <string name="formula_editor_function_arduino_read_pin_value_analog" tools:ignore="UnusedResources">arduino_analogowe_wyjście</string>
     <string name="formula_editor_function_raspi_read_pin_value_digital" tools:ignore="UnusedResources">raspberry_pi_pin</string>
-    <string name="formula_editor_function_pin_default_parameter">(3)</string>
+    <string name="formula_editor_function_pin_default_parameter">(0)</string>
     <string name="formula_editor_function_finger_x" tools:ignore="UnusedResources">x_dotknięcia_ekranu</string>
     <string name="formula_editor_function_finger_y" tools:ignore="UnusedResources">y dotknięcia ekranu</string>
     <string name="formula_editor_function_is_finger_touching" tools:ignore="UnusedResources">dotknięto_ekran</string>
@@ -1719,6 +1719,7 @@ Jeśli jednak nie chcesz tego robić, możesz skorzystać z naszych bezpłatnych
     <string name="formula_editor_object_brightness" tools:ignore="UnusedResources">jasność</string>
     <string name="formula_editor_object_size" tools:ignore="UnusedResources">rozmiar</string>
     <string name="formula_editor_object_rotation" tools:ignore="UnusedResources">kierunek</string>
+    <string name="formula_editor_object_rotation_look" tools:ignore="UnusedResources">kierunek widoku</string>
     <string name="formula_editor_object_layer" tools:ignore="UnusedResources">warstwa</string>
     <string name="formula_editor_object_x_velocity" tools:ignore="UnusedResources">szybkość w osi X</string>
     <string name="formula_editor_object_y_velocity" tools:ignore="UnusedResources">szybkość w osi Y</string>
@@ -1925,4 +1926,6 @@ Jeśli jednak nie chcesz tego robić, możesz skorzystać z naszych bezpłatnych
     <string name="no_variable_selected">Nie wybrano zmiennej</string>
     <string name="find">Znajdź</string>
     <string name="no_results_found">Nie znaleziono wyników</string>
+    <string name="cut">Wytnij</string>
+    <string name="paste">Wklej</string>
 </resources>

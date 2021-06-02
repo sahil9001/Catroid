@@ -56,7 +56,7 @@
     <string name="please_wait">Attendere prego</string>
     <string name="search_hint">Ricerca&#8230;</string>
     <string name="backpack_add">Aggiungi allo zaino</string>
-    <string name="share_website_text">www.pocketcode.org</string>
+    <string name="share_website_text">share.catrob.at</string>
     <!-- Security warning dialog -->
     <string name="security_warning_dialog_msg">Il progetto che hai scaricato ascolta la tua voce
         in background e invia i dati attraverso Internet. Questo può essere innocuo e necessario
@@ -1666,6 +1666,7 @@ con tolleranza %        </string>
     <string name="formula_editor_object_brightness" tools:ignore="UnusedResources">luminosita</string>
     <string name="formula_editor_object_size" tools:ignore="UnusedResources">dimensione</string>
     <string name="formula_editor_object_rotation" tools:ignore="UnusedResources">direzione</string>
+    <string name="formula_editor_object_rotation_look" tools:ignore="UnusedResources">guardare la direzione</string>
     <string name="formula_editor_object_layer" tools:ignore="UnusedResources">layer</string>
     <string name="formula_editor_object_x_velocity" tools:ignore="UnusedResources">velocità_x</string>
     <string name="formula_editor_object_y_velocity" tools:ignore="UnusedResources">velocità y</string>
@@ -1885,4 +1886,6 @@ con tolleranza %        </string>
     <string name="no_variable_selected">Nessuna variabile selezionata</string>
     <string name="find">Trova</string>
     <string name="no_results_found">Nessun risultato trovato</string>
+    <string name="cut">Taglia</string>
+    <string name="paste">Incolla</string>
 </resources>

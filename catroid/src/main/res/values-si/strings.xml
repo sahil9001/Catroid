@@ -32,8 +32,8 @@
     <string name="edit_option">edit&#8230;</string>
     <string name="confirm">Confirm</string>
     <string name="ignore">Ignore</string>
-    <string name="cancel">Cancel</string>
-    <string name="save">Save</string>
+    <string name="cancel">අවලංගු කරන්න</string>
+    <string name="save">සුරකින්න</string>
     <string name="discard">Discard</string>
     <string name="next">Next</string>
     <string name="ok">OK</string>
@@ -51,7 +51,7 @@
     <string name="deselect_all">Deselect all</string>
     <string name="skip">skip</string>
     <string name="warning">Warning</string>
-    <string name="error">Error</string>
+    <string name="error">දෝෂය</string>
     <string name="loading">Loading&#8230;</string>
     <string name="please_wait">Please wait</string>
     <string name="search_hint">Search&#8230;</string>
@@ -88,7 +88,7 @@
     <string name="main_menu_continue">Continue project</string>
     <string name="main_menu_new">New project</string>
     <string name="main_menu_programs">Projects on device</string>
-    <string name="main_menu_help" tools:ignore="UnusedResources">Help</string>
+    <string name="main_menu_help" tools:ignore="UnusedResources">උපකාර</string>
     <string name="main_menu_web">Catrobat community</string>
     <string name="main_menu_upload">Upload project</string>
     <string name="main_menu_rate_app">Rate us!</string>
@@ -112,7 +112,7 @@
     <string name="nfc_activity_title">NFC tags</string>
     <!-- Settings activity -->
     <string name="preference_title">Settings</string>
-    <string name="preference_title_language">Language</string>
+    <string name="preference_title_language">භාෂාව</string>
     <string name="preference_description_language">Set the app\'s language</string>
     <string name="preference_title_web_access">Web access</string>
     <string name="preference_description_web_access">Edit to add or remove trusted domains</string>
@@ -536,7 +536,7 @@
     <string name="tnf_well_known_https">HTTPS</string>
     <string name="tnf_well_known_tel">Phone number</string>
     <string name="tnf_well_known_sms">SMS</string>
-    <string name="tnf_well_known_mailto">E-Mail</string>
+    <string name="tnf_well_known_mailto">විද්‍යුත් තැපෑල</string>
     <!--  -->
     <!-- DataListFragment -->
     <string name="multiplayer_vars_headline">Variables for connected devices</string>
@@ -652,7 +652,7 @@
     <string name="brick_context_dialog_highlight_brick_parts">Highlight brick parts</string>
     <string name="brick_context_dialog_comment_in_script">Enable script</string>
     <string name="brick_context_dialog_comment_out_script">Disable script</string>
-    <string name="brick_context_dialog_help">Help</string>
+    <string name="brick_context_dialog_help">උපකාර</string>
     <string name="comment_in_out">Disable/enable</string>
     <string name="catblocks">Toggle 2D</string>
     <string name="catblocks_reorder">Clean up scripts</string>
@@ -665,8 +665,8 @@
     <!--  -->
     <!-- Sign In dialogs -->
     <string name="sign_in_dialog_title">Sign in</string>
-    <string name="username">Username</string>
-    <string name="password">Password</string>
+    <string name="username">පරිශීලක නාමය</string>
+    <string name="password">මුරපදය</string>
     <string name="reset_password">Reset password</string>
     <string name="new_user_registered">New account created</string>
     <string name="user_logged_in">Login successful</string>
@@ -676,7 +676,7 @@
     <string name="login">Login</string>
     <string name="register">Register</string>
     <string name="password_confirm">Confirm password</string>
-    <string name="accountName">E-Mail</string>
+    <string name="accountName">විද්‍යුත් තැපෑල</string>
     <string name="signin_thanks">Thank you for signing up!</string>
     <string name="signin_choose_username">Please choose your username:</string>
     <string name="signin_choose_username_empty">Please enter a username.</string>
@@ -759,11 +759,11 @@
     <string name="category_motion" tools:ignore="UnusedResources">Motion</string>
     <string name="category_looks" tools:ignore="UnusedResources">Looks</string>
     <string name="category_pen" tools:ignore="UnusedResources">Pen</string>
-    <string name="category_sound" tools:ignore="UnusedResources">Sound</string>
+    <string name="category_sound" tools:ignore="UnusedResources">ශබ්දය</string>
     <string name="category_control" tools:ignore="UnusedResources">Control</string>
     <string name="category_event" tools:ignore="UnusedResources">Event</string>
     <string name="category_user_bricks" tools:ignore="UnusedResources">Your bricks</string>
-    <string name="category_data" tools:ignore="UnusedResources">Data</string>
+    <string name="category_data" tools:ignore="UnusedResources">දත්ත</string>
     <string name="category_device" tools:ignore="UnusedResources">Device</string>
     <string name="category_lego_nxt" tools:ignore="UnusedResources">Lego NXT</string>
     <string name="category_lego_ev3" tools:ignore="UnusedResources">Lego EV3</string>
@@ -1287,7 +1287,7 @@ needs read and write access to it. You can always change permissions through you
     <string name="nxt_motor_b">B</string>
     <string name="nxt_motor_c">C</string>
     <string name="nxt_motor_b_and_c">B+C</string>
-    <string name="nxt_motor_all">All</string>
+    <string name="nxt_motor_all">සියල්ල</string>
     <string name="nxt_choose_sensor_1">Sensor connected on port 1</string>
     <string name="nxt_choose_sensor_2">Sensor connected on port 2</string>
     <string name="nxt_choose_sensor_3">Sensor connected on port 3</string>
@@ -1342,7 +1342,7 @@ needs read and write access to it. You can always change permissions through you
     <string name="ev3_motor_c">C</string>
     <string name="ev3_motor_d">D</string>
     <string name="ev3_motor_b_and_c">B+C</string>
-    <string name="ev3_motor_all">All</string>
+    <string name="ev3_motor_all">සියල්ල</string>
     <string name="ev3_play_tone" tools:ignore="UnusedResources">Play EV3 tone</string>
     <string name="ev3_tone_duration_for" tools:ignore="UnusedResources">for</string>
     <string name="ev3_tone_volume" tools:ignore="UnusedResources">Volume</string>
@@ -1421,7 +1421,7 @@ needs read and write access to it. You can always change permissions through you
     <string name="brick_jumping_sumo_taking_picture" tools:ignore="UnusedResources">Taking picture Jumping Sumo</string>
     <!--  -->
     <!-- defaultJumpingSumoValues -->
-    <string name="default_jumping_sumo_project_sprites_sound" tools:ignore="UnusedResources">Sound</string>
+    <string name="default_jumping_sumo_project_sprites_sound" tools:ignore="UnusedResources">ශබ්දය</string>
     <!--  -->
     <!-- Jumping Sumo animation strings -->
     <string name="animation_spin" tools:ignore="UnusedResources">Spin</string>
@@ -1491,7 +1491,7 @@ needs read and write access to it. You can always change permissions through you
     <string name="color_blue">blue</string>
     <!-- -->
     <!-- Formula editor strings -->
-    <string name="formula_editor_data">Data</string>
+    <string name="formula_editor_data">දත්ත</string>
     <string name="formula_editor_true">true</string>
     <string name="formula_editor_false">false</string>
     <string name="formula_editor_decimal_mark" tools:ignore="UnusedResources">.</string>
@@ -1672,7 +1672,8 @@ needs read and write access to it. You can always change permissions through you
     <string name="formula_editor_object_transparency" tools:ignore="UnusedResources">transparency</string>
     <string name="formula_editor_object_brightness" tools:ignore="UnusedResources">brightness</string>
     <string name="formula_editor_object_size" tools:ignore="UnusedResources">size</string>
-    <string name="formula_editor_object_rotation" tools:ignore="UnusedResources">direction</string>
+    <string name="formula_editor_object_rotation" tools:ignore="UnusedResources">motion direction</string>
+    <string name="formula_editor_object_rotation_look" tools:ignore="UnusedResources">look direction</string>
     <string name="formula_editor_object_layer" tools:ignore="UnusedResources">layer</string>
     <string name="formula_editor_object_x_velocity" tools:ignore="UnusedResources">x velocity</string>
     <string name="formula_editor_object_y_velocity" tools:ignore="UnusedResources">y velocity</string>
@@ -1779,7 +1780,7 @@ needs read and write access to it. You can always change permissions through you
     <string name="formula_editor_intro_title_device">Sensors</string>
     <string name="formula_editor_intro_summary_device">In \"Sensors\" you can find information that your
         device records.\nFor example, the tilt of your device, or the loudness of your surroundings.</string>
-    <string name="formula_editor_intro_title_data">Data</string>
+    <string name="formula_editor_intro_title_data">දත්ත</string>
     <string name="formula_editor_intro_summary_data">Variables and lists that are used in your project can be found here.
         \nYou can simply insert these in your formula, or add new ones.</string>
     <string name="formula_editor_listening_language_sensor">listening language</string>
@@ -1896,4 +1897,6 @@ needs read and write access to it. You can always change permissions through you
     <string name="no_variable_selected">No variable selected</string>
     <string name="find">Find</string>
     <string name="no_results_found">No results found</string>
+    <string name="cut">Cut</string>
+    <string name="paste">Paste</string>
 </resources>

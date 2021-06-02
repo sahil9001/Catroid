@@ -395,33 +395,33 @@
     <!-- Action Toasts -->
     <!-- Backpack -->
     <plurals name="packed_scenes">
-        <item quantity="one">Armazenando %d cena.</item>
-        <item quantity="other">Armazenando %d cenas.</item>
+        <item quantity="one">%d cena empacotada.</item>
+        <item quantity="other">%d cenas empacotadas.</item>
     </plurals>
     <plurals name="packed_sprites">
-        <item quantity="one">Armazenado %d ator ou objeto</item>
-        <item quantity="other">Armazenado %d atores ou objetos.</item>
+        <item quantity="one">%d ator ou objeto empacotado.</item>
+        <item quantity="other">%d ator ou objeto empacotados.</item>
     </plurals>
     <plurals name="packed_looks">
-        <item quantity="one">Armazenando %d aparência.</item>
-        <item quantity="other">Armazenando %d aparências.</item>
+        <item quantity="one">%d aparência empacotada.</item>
+        <item quantity="other">%d aparências empacotadas.</item>
     </plurals>
     <plurals name="packed_sounds">
         <item quantity="one">%d som empacotado.</item>
         <item quantity="other">%d sons empacotados</item>
     </plurals>
-    <string name="packed_script_group">Compactado um grupo de script</string>
+    <string name="packed_script_group">Um grupo de scripts empacotados.</string>
     <!-- Unpack -->
     <plurals name="unpacked_scenes">
-        <item quantity="one">Desempacotado %d cena</item>
-        <item quantity="other">Descompactado %d cenas</item>
+        <item quantity="one">%d cena  descompactada.</item>
+        <item quantity="other">%d cenas  descompactadas.</item>
     </plurals>
     <plurals name="unpacked_sprites">
         <item quantity="one">%d ator ou objeto descompactado.</item>
         <item quantity="other">%d atores ou objetos descompactados.</item>
     </plurals>
     <plurals name="unpacked_looks">
-        <item quantity="one">%d visual descompactado.</item>
+        <item quantity="one">%d aparência descompactada.</item>
         <item quantity="other">%d aparências descompactadas.</item>
     </plurals>
     <plurals name="unpacked_sounds">
@@ -550,23 +550,23 @@
     </plurals>
     <!-- NewDataDialog -->
     <string name="new_data_for_all_sprites">Para todos os atores, objetos e clones em todas as cenas</string>
-    <string name="new_data_for_this_sprite_only">Para este personagem, objeto ou apenas um de seus clones</string>
+    <string name="new_data_for_this_sprite_only">Para este ator, objeto ou apenas um de seus clones</string>
     <string name="new_data_for_connected_devices">Para todos os atores, objetos e clones em todas as cenas de projetos
         em dispositivos multijogador conectados</string>
     <!-- Backpack -->
     <string name="backpack_title">Sua mochila</string>
-    <string name="pack">Pacote </string>
-    <string name="unpack">Descompactado</string>
+    <string name="pack">Empacotar</string>
+    <string name="unpack">Descompactar</string>
     <!--  -->
     <!-- NewProjectDialog -->
-    <string name="new_project_dialog_example_project">Exemplo de projeto</string>
+    <string name="new_project_dialog_example_project">Projetos de exemplo</string>
     <!--  -->
     <!-- NewMergedProjectDialog -->
     <string name="new_merge_project_dialog_title">Projeto mesclado</string>
     <string name="merging_project_text">Esses dois projetos ainda não podem ser mesclados</string>
     <!--  -->
     <!-- NewSpriteDialog -->
-    <string name="new_sprite_dialog_title">Novo Objeto</string>
+    <string name="new_sprite_dialog_title">Meu ator ou objeto</string>
     <!--  -->
     <!-- NewLookDialog -->
     <string name="new_look_dialog_title">Adicionar aparência</string>
@@ -588,7 +588,7 @@
     <string name="rating_google_play_dialog_text">Se você gosta deste aplicativo, por favor nos avalie na App store.</string>
     <string name="rating_dialog_rate_now">Agora</string>
     <string name="rating_dialog_rate_later">Mais tarde</string>
-    <string name="rating_dialog_rate_never">nunca</string>
+    <string name="rating_dialog_rate_never">Nunca</string>
     <!--  -->
     <!-- Terms of Use Dialog -->
     <string name="dialog_terms_of_use_title">Termos de Uso e Serviço</string>
@@ -616,7 +616,7 @@
     <string name="upload_project_dialog_title">Fazer upload do programa</string>
     <string name="upload_description">Descrição:</string>
     <string name="upload_notes_and_credits">Notas e créditos:</string>
-    <string name="upload_notes_and_credits_explanation">Como você criou este projeto? Você usou ideias, scripts ou arte de outras pessoas? Obrigado aqui.</string>
+    <string name="upload_notes_and_credits_explanation">Como você criou este projeto? Você usou ideias, scripts ou artes de outras pessoas? Agradeça elas aqui.</string>
     <string name="upload_tag_dialog_title">Por favor, escolha até três categorias</string>
     <string name="upload_tags_maximum_error">Não é possível selecionar mais de 3 tags.</string>
     <!-- Save Project to External Storage -->
@@ -642,16 +642,16 @@
     <string name="brick_context_dialog_copy_script">Copiar script</string>
     <string name="brick_context_dialog_formula_edit_brick">Editar fórmula</string>
     <string name="brick_context_dialog_delete_script">Excluir script</string>
-    <string name="brick_context_dialog_delete_definition">Apagar esta definição</string>
+    <string name="brick_context_dialog_delete_definition">Excluir esta definição</string>
     <string name="brick_context_dialog_comment_in">Habilitar bloco</string>
     <string name="brick_context_dialog_comment_out">Desativar bloco</string>
-    <string name="brick_context_dialog_highlight_brick_parts">Destacar partes de tijolos</string>
-    <string name="brick_context_dialog_comment_in_script">Enable script</string>
+    <string name="brick_context_dialog_highlight_brick_parts">Destacar partes do bloco</string>
+    <string name="brick_context_dialog_comment_in_script">Habilitar script</string>
     <string name="brick_context_dialog_comment_out_script">Desativar script</string>
     <string name="brick_context_dialog_help">Ajuda</string>
-    <string name="comment_in_out">Desabilitar/ativar</string>
+    <string name="comment_in_out">Desativar/Habilitar</string>
     <string name="catblocks">Alternar 2D</string>
-    <string name="catblocks_reorder">Limpar scripts</string>
+    <string name="catblocks_reorder">Organizar scripts</string>
     <string name="switch_to_1d" tools:ignore="UnusedResources">Vista 1D</string>
     <!--  -->
     <!-- Play scene dialog -->
@@ -751,7 +751,7 @@
     <!-- -->
     <!-- Brick categories -->
     <string name="categories" tools:ignore="UnusedResources">Categorias</string>
-    <string name="category_embroidery" tools:ignore="UnusedResources">Embaixador</string>
+    <string name="category_embroidery" tools:ignore="UnusedResources">Embroidery</string>
     <string name="category_motion" tools:ignore="UnusedResources">Movimento</string>
     <string name="category_looks" tools:ignore="UnusedResources">Aparências</string>
     <string name="category_pen" tools:ignore="UnusedResources">Caneta</string>
@@ -901,7 +901,7 @@
     <string name="brick_speak" tools:ignore="UnusedResources">Falar</string>
     <string name="brick_speak_default_value">Olá!</string>
     <string name="brick_speak_and_wait" tools:ignore="UnusedResources">e esperar</string>
-    <string name="brick_start_listening_to_voice" tools:ignore="UnusedResources">Comece a ouvir voz e armazenar palavras faladas em</string>
+    <string name="brick_start_listening_to_voice" tools:ignore="UnusedResources">Comece a ouvir a voz e armazenar as palavras faladas em</string>
     <string name="speech_recognition_not_available">Reconhecimento de fala indisponível.</string>
     <string name="speech_recognition_offline_mode_error_dialog_title">Faltando dados offline</string>
     <string name="speech_recognition_offline_mode_missing_data_error_dialog_msg">O reconhecimento de fala off-line
@@ -943,7 +943,7 @@
     <string name="brick_when_gamepad_button" tools:ignore="UnusedResources">Quando botão do gamepad</string>
     <string name="brick_when_gamepad_button_tapped" tools:ignore="UnusedResources">tocado</string>
     <string name="brick_when_nfc" tools:ignore="UnusedResources">Quando o NFC</string>
-    <string name="brick_stop_script" tools:ignore="UnusedResources">Interromper</string>
+    <string name="brick_stop_script" tools:ignore="UnusedResources">Parar</string>
     <string name="brick_stop_this_script" tools:ignore="UnusedResources">este script</string>
     <string name="brick_stop_all_scripts" tools:ignore="UnusedResources">todos os scripts</string>
     <string name="brick_stop_other_scripts" tools:ignore="UnusedResources">outros scripts deste ator ou objeto</string>
@@ -957,7 +957,7 @@
     <string name="brick_broadcast" tools:ignore="UnusedResources">Enviar</string>
     <string name="brick_broadcast_wait" tools:ignore="UnusedResources">Enviar e aguardar</string>
     <string name="brick_scene_transition" tools:ignore="UnusedResources">Continuar cena</string>
-    <string name="brick_scene_start" tools:ignore="UnusedResources">Iniciar cenário</string>
+    <string name="brick_scene_start" tools:ignore="UnusedResources">Iniciar cena</string>
     <string name="brick_note" tools:ignore="UnusedResources">Nota</string>
     <string name="brick_think_bubble" tools:ignore="UnusedResources">Pensar</string>
     <string name="brick_say_bubble" tools:ignore="UnusedResources">Diga</string>
@@ -969,7 +969,7 @@
     <string name="brick_loop_to" tools:ignore="UnusedResources">para</string>
     <string name="brick_repeat" tools:ignore="UnusedResources">Repetir</string>
     <string name="brick_repeat_until" tools:ignore="UnusedResources">Repetir até</string>
-    <string name="brick_when_touched" tools:ignore="UnusedResources">Quando o estágio for pressionado</string>
+    <string name="brick_when_touched" tools:ignore="UnusedResources">Quando a tela for pressionada</string>
     <string name="brick_clone" tools:ignore="UnusedResources">Criar clone de</string>
     <string name="brick_clone_this">você mesmo</string>
     <string name="brick_when_cloned" tools:ignore="UnusedResources">Quando um clone for criado </string>
@@ -978,9 +978,9 @@
     <string name="brick_is_equal_to" tools:ignore="UnusedResources">é esperado igual</string>
     <string name="brick_wait_till_idle" tools:ignore="UnusedResources">Aguarde até que todos os outros scripts terminem</string>
     <string name="brick_tap_at" tools:ignore="UnusedResources">"Toque simples em"</string>
-    <string name="brick_touch_at" tools:ignore="UnusedResources">"Toque em"</string>
+    <string name="brick_touch_at" tools:ignore="UnusedResources">"Tocar em"</string>
     <string name="brick_tap_for" tools:ignore="UnusedResources">"para"</string>
-    <string name="brick_touch_slide" tools:ignore="UnusedResources">"Toque e deslize"</string>
+    <string name="brick_touch_slide" tools:ignore="UnusedResources">"Tocar e deslizar"</string>
     <string name="brick_touch_from_x" tools:ignore="UnusedResources">"do x:"</string>
     <string name="brick_finish_stage" tools:ignore="UnusedResources">Fechar esta cena</string>
     <string name="brick_finish_tests" tools:ignore="UnusedResources">Finalizar testes</string>
@@ -1024,7 +1024,7 @@
     <string name="brick_read_variable_from_file_keep">manter o arquivo</string>
     <string name="brick_read_variable_from_file_delete">excluir o arquivo</string>
     <string name="brick_write_list_on_device" tools:ignore="UnusedResources">Gravar lista no dispositivo</string>
-    <string name="brick_read_list_from_device" tools:ignore="UnusedResources">Ler lista a partir do dispositivo</string>
+    <string name="brick_read_list_from_device" tools:ignore="UnusedResources">Ler lista do dispositivo</string>
     <string name="brick_note_default_value">adicionar comentário aqui&#8230;</string>
     <string name="brick_think_bubble_default_value">Hmmmm!</string>
     <string name="brick_say_bubble_default_value">Olá!</string>
@@ -1067,18 +1067,18 @@
     <string name="brick_store_csv_into_userlist_of" tools:ignore="UnusedResources">de</string>
     <string name="brick_store_csv_into_userlist_csv" tools:ignore="UnusedResources">valores separados por vírgulas</string>
     <string name="brick_store_csv_into_userlist_into" tools:ignore="UnusedResources">na lista</string>
-    <string name="brick_store_csv_into_userlist_data">kitty,cute\ncachorrinho,malfeito\npolvo, inteligente</string>
+    <string name="brick_store_csv_into_userlist_data">gatinho,cachorrinho\nfofo,polvo\nmalvado,inteligente</string>
     <!--  -->
     <!--Instruments-->
     <string name="piano">piano</string>
-    <string name="electric_piano">piano elétrico</string>
+    <string name="electric_piano">teclado</string>
     <string name="cello">violoncelo</string>
     <string name="flute">flauta</string>
     <string name="vibraphone">vibrafone</string>
     <string name="organ">órgão</string>
     <string name="guitar">guitarra</string>
     <string name="electric_guitar">guitarra elétrica</string>
-    <string name="bass">grave</string>
+    <string name="bass">contra baixo</string>
     <string name="pizzicato">pizzicato</string>
     <string name="synth_pad">bloco sintetizador</string>
     <string name="choir">coro</string>
@@ -1149,7 +1149,7 @@
     <string name="default_cast_project_var_direction">direção</string>
     <string name="default_cast_project_name">Meu primeiro projeto Chromecast</string>
     <!-- Default Drone Values -->
-    <string name="drone_brick_set_text">texto</string>
+    <string name="drone_brick_set_text">Texto</string>
     <string name="drone_brick_set_x">X:</string>
     <!--  -->
     <!-- Drone config spinner values  -->
@@ -1191,7 +1191,7 @@
     <string name="notification_upload_rejected">O programa carregado foi recusado</string>
     <string name="notification_upload_retry">Tentar novamente</string>
     <string name="notification_open_play_store">Abrir loja de aplicativos</string>
-    <string name="notification_download_title_pending">"Baixando"</string>
+    <string name="notification_download_title_pending">"Baixando "</string>
     <string name="notification_download_pending">Download em progresso</string>
     <string name="notification_download_finished">Download bem-sucedido</string>
     <string name="notification_title_open">"Abrir "</string>
@@ -1487,7 +1487,7 @@ precisa de acesso de leitura e escrita a ele. Você sempre pode alterar as permi
     <string name="color_blue">azul</string>
     <!-- -->
     <!-- Formula editor strings -->
-    <string name="formula_editor_data">Dados</string>
+    <string name="formula_editor_data">Dado</string>
     <string name="formula_editor_true">verdadeiro</string>
     <string name="formula_editor_false">Falso</string>
     <string name="formula_editor_decimal_mark" tools:ignore="UnusedResources">.</string>
@@ -1548,9 +1548,9 @@ precisa de acesso de leitura e escrita a ele. Você sempre pode alterar as permi
     <string name="formula_editor_function_false" tools:ignore="UnusedResources">Falso</string>
     <string name="formula_editor_function_length" tools:ignore="UnusedResources">comprimento</string>
     <string name="formula_editor_function_length_parameter">(\'olá mundo\')</string>
-    <string name="formula_editor_function_letter" tools:ignore="UnusedResources">letra</string>
+    <string name="formula_editor_function_letter" tools:ignore="UnusedResources">Letra</string>
     <string name="formula_editor_function_letter_parameter">(1,\'olá mundo\')</string>
-    <string name="formula_editor_function_join" tools:ignore="UnusedResources">junta</string>
+    <string name="formula_editor_function_join" tools:ignore="UnusedResources">Juntar</string>
     <string name="formula_editor_function_join_parameter">(\'Olá,\',\' mundo!\')</string>
     <string name="formula_editor_function_join3">junta</string>
     <string name="formula_editor_function_join3_parameter">(\'Olá\',\' mundo\',\'!\')</string>
@@ -1586,9 +1586,9 @@ precisa de acesso de leitura e escrita a ele. Você sempre pode alterar as permi
     <string name="formula_editor_function_number_of_items" tools:ignore="UnusedResources">número de itens</string>
     <string name="formula_editor_function_number_of_items_parameter">(*nome da lista*)</string>
     <string name="formula_editor_function_collision">tocar o ator ou o objeto</string>
-    <string name="formula_editor_function_collides_with_edge" tools:ignore="UnusedResources">Tocar a borda</string>
+    <string name="formula_editor_function_collides_with_edge" tools:ignore="UnusedResources">tocar na borda</string>
     <string name="formula_editor_function_touched" tools:ignore="UnusedResources">tocar o dedo</string>
-    <string name="formula_editor_function_collides_with_color">tocar a cor</string>
+    <string name="formula_editor_function_collides_with_color">tocar cor</string>
     <string name="formula_editor_function_color_touches_color">cor tocar a cor</string>
     <string name="formula_editor_sensor_color_at_x_y">cor em x y</string>
     <string name="formula_editor_sensor_color_equals_color" tools:ignore="UnusedResources">cor é igual a cor com %
@@ -1606,10 +1606,10 @@ precisa de acesso de leitura e escrita a ele. Você sempre pode alterar as permi
     <string name="formula_editor_sensor_y_inclination" tools:ignore="UnusedResources">inclinação y</string>
     <string name="formula_editor_sensor_loudness" tools:ignore="UnusedResources">volume</string>
     <string name="formula_editor_sensor_timer">cronômetro</string>
-    <string name="formula_editor_sensor_date_year" tools:ignore="UnusedResources">Ano</string>
-    <string name="formula_editor_sensor_date_month" tools:ignore="UnusedResources">Mês</string>
-    <string name="formula_editor_sensor_date_day" tools:ignore="UnusedResources">Dia</string>
-    <string name="formula_editor_sensor_date_weekday" tools:ignore="UnusedResources">Dia da semana</string>
+    <string name="formula_editor_sensor_date_year" tools:ignore="UnusedResources">ano</string>
+    <string name="formula_editor_sensor_date_month" tools:ignore="UnusedResources">mês</string>
+    <string name="formula_editor_sensor_date_day" tools:ignore="UnusedResources">dia</string>
+    <string name="formula_editor_sensor_date_weekday" tools:ignore="UnusedResources">dia da semana</string>
     <string name="formula_editor_sensor_time_hour" tools:ignore="UnusedResources">hora</string>
     <string name="formula_editor_sensor_time_minute" tools:ignore="UnusedResources">minuto</string>
     <string name="formula_editor_sensor_time_second" tools:ignore="UnusedResources">segundo</string>
@@ -1668,6 +1668,7 @@ precisa de acesso de leitura e escrita a ele. Você sempre pode alterar as permi
     <string name="formula_editor_object_brightness" tools:ignore="UnusedResources">brilho</string>
     <string name="formula_editor_object_size" tools:ignore="UnusedResources">tamanho</string>
     <string name="formula_editor_object_rotation" tools:ignore="UnusedResources">direção</string>
+    <string name="formula_editor_object_rotation_look" tools:ignore="UnusedResources">direção que está olhando</string>
     <string name="formula_editor_object_layer" tools:ignore="UnusedResources">camada</string>
     <string name="formula_editor_object_x_velocity" tools:ignore="UnusedResources">velocidade x</string>
     <string name="formula_editor_object_y_velocity" tools:ignore="UnusedResources">velocidade y</string>
@@ -1694,7 +1695,7 @@ precisa de acesso de leitura e escrita a ele. Você sempre pode alterar as permi
     <string name="formula_editor_device_text_recognition">Reconhecimento de texto</string>
     <string name="formula_editor_device_date_and_time">Data e hora</string>
     <string name="formula_editor_device_touch_detection">Detecção de toque</string>
-    <string name="formula_editor_device_lego_nxt">Lego NXT</string>
+    <string name="formula_editor_device_lego_nxt">Lego Mindstorms NXT</string>
     <string name="formula_editor_device_lego_ev3">Lego Mindstorms EV3</string>
     <string name="formula_editor_device_arduino">Arduino</string>
     <string name="formula_editor_device_phiro">Phiro</string>
@@ -1779,8 +1780,8 @@ precisa de acesso de leitura e escrita a ele. Você sempre pode alterar as permi
         \nVocê pode simplesmente inserir estes na sua fórmula, ou adicionar novas.</string>
     <string name="formula_editor_listening_language_sensor">escutando idioma</string>
     <string name="formula_editor_speech_recognition">Reconhecimento de voz</string>
-    <string name="camera_error_text_detection">        Houve um problema com a detecção de texto. Alguns componentes ainda podem estar baixando em segundo plano
-        . Por favor, verifique se está conectado à internet e verifique novamente mais tarde.</string>
+    <string name="camera_error_text_detection">        Houve um problema com a detecção de texto. Alguns componentes ainda podem estar baixando em segundo plano. 
+        Por favor, verifique se está conectado à internet e verifique novamente mais tarde.</string>
     <string name="formula_editor_function_flatten">Nivelar</string>
     <string name="formula_editor_function_flatten_parameter">(*nome da lista*)</string>
     <!--  -->
@@ -1806,8 +1807,8 @@ precisa de acesso de leitura e escrita a ele. Você sempre pode alterar as permi
     <string name="choose_camera_back" tools:ignore="UnusedResources">trâs</string>
     <string name="camera_error_generic">        Algo deu errado ao tentar usar a câmera.
     </string>
-    <string name="camera_error_face_detection">        Houve um problema com a detecção de texto. Alguns componentes ainda podem estar baixando em segundo plano
-        . Por favor, verifique se está conectado à internet e verifique novamente mais tarde.</string>
+    <string name="camera_error_face_detection">        Houve um problema com a detecção de texto. Alguns componentes ainda podem estar baixando em segundo plano.
+        Por favor, verifique se está conectado à internet e verifique novamente mais tarde.</string>
     <!-- -->
     <!-- Cast strings -->
     <string name="cast_gamepad_A">A</string>
@@ -1890,4 +1891,6 @@ precisa de acesso de leitura e escrita a ele. Você sempre pode alterar as permi
     <string name="no_variable_selected">Nenhuma variável selecionada</string>
     <string name="find">Procurar</string>
     <string name="no_results_found">Nenhum resultado encontrado</string>
+    <string name="cut">Cortar</string>
+    <string name="paste">Colar</string>
 </resources>

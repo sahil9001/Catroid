@@ -1757,6 +1757,7 @@
     <string name="formula_editor_object_brightness" tools:ignore="UnusedResources">яркость</string>
     <string name="formula_editor_object_size" tools:ignore="UnusedResources">размер</string>
     <string name="formula_editor_object_rotation" tools:ignore="UnusedResources">направление</string>
+    <string name="formula_editor_object_rotation_look" tools:ignore="UnusedResources">направление взгляда</string>
     <string name="formula_editor_object_layer" tools:ignore="UnusedResources">слой</string>
     <string name="formula_editor_object_x_velocity" tools:ignore="UnusedResources">x скорость</string>
     <string name="formula_editor_object_y_velocity" tools:ignore="UnusedResources">y скорость</string>
@@ -1976,4 +1977,6 @@
     <string name="no_variable_selected">Переменная не выбрана</string>
     <string name="find">Найти</string>
     <string name="no_results_found">Ничего не найдено</string>
+    <string name="cut">Вырезать</string>
+    <string name="paste">Вставить</string>
 </resources>

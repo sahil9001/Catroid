@@ -385,7 +385,7 @@
     <string name="rename_scene_dialog">Rename scene</string>
     <string name="rename_sprite_dialog">Rename actor or object</string>
     <string name="rename_look_dialog">Rename look</string>
-    <string name="rename_sound_dialog">Rename sound</string>
+    <string name="rename_sound_dialog">Rename Sound</string>
     <string name="rename_nfctag_dialog">Rename NFC tag</string>
     <string name="rename_data_dialog">Rename</string>
     <!-- New Script Group Dialog -->
@@ -1673,6 +1673,7 @@ needs read and write access to it. You can always change permissions through you
     <string name="formula_editor_object_brightness" tools:ignore="UnusedResources">brightness</string>
     <string name="formula_editor_object_size" tools:ignore="UnusedResources">size</string>
     <string name="formula_editor_object_rotation" tools:ignore="UnusedResources">direction</string>
+    <string name="formula_editor_object_rotation_look" tools:ignore="UnusedResources">look direction</string>
     <string name="formula_editor_object_layer" tools:ignore="UnusedResources">layer</string>
     <string name="formula_editor_object_x_velocity" tools:ignore="UnusedResources">x velocity</string>
     <string name="formula_editor_object_y_velocity" tools:ignore="UnusedResources">y velocity</string>
@@ -1896,4 +1897,6 @@ needs read and write access to it. You can always change permissions through you
     <string name="no_variable_selected">No variable selected</string>
     <string name="find">Find</string>
     <string name="no_results_found">No results found</string>
+    <string name="cut">Cut</string>
+    <string name="paste">Paste</string>
 </resources>

@@ -364,7 +364,7 @@
     <string name="sound_details">Süre: %s, boyut: %s</string>
     <!--  -->
     <!-- Rename Dialog Titles -->
-    <string name="rename_project">Programı yeniden adlandır</string>
+    <string name="rename_project">Projeyi yeniden adlandır</string>
     <string name="rename_scene_dialog">Sahneyi yeniden adlandır</string>
     <string name="rename_sprite_dialog">Objeyi yeniden adlandır</string>
     <string name="rename_look_dialog">Görüntüyü yeniden adlandır</string>
@@ -620,7 +620,7 @@ Bu uygulamanın kaynak kodu esas olarak GNU AGPL v3 lisansı altında lisanslanm
     <string name="brick_context_dialog_move_definition">Bu tanımı taşı</string>
     <string name="brick_context_dialog_delete_brick" tools:ignore="UnusedResources">Tuğlayı sil</string>
     <string name="brick_context_dialog_copy_brick">Tuğlayı kopyala</string>
-    <string name="brick_context_dialog_copy_script">Komutu kopyala</string>
+    <string name="brick_context_dialog_copy_script">Komut dosyasını kopyala</string>
     <string name="brick_context_dialog_formula_edit_brick">Formülü düzenleyin</string>
     <string name="brick_context_dialog_delete_script">Komut dosyasını sil</string>
     <string name="brick_context_dialog_delete_definition">Bu tanımı sil</string>
@@ -908,7 +908,7 @@ Bu uygulamanın kaynak kodu esas olarak GNU AGPL v3 lisansı altında lisanslanm
     <string name="brick_open" tools:ignore="UnusedResources">Aç</string>
     <string name="brick_in_browser" tools:ignore="UnusedResources">tarayıcıda</string>
     <!-- Control bricks -->
-    <string name="brick_when_started" tools:ignore="UnusedResources">Program başladığında</string>
+    <string name="brick_when_started" tools:ignore="UnusedResources">Sahne başladığında</string>
     <string name="brick_when" tools:ignore="UnusedResources">Objeye dokunduğunda</string>
     <string name="brick_when_condition_when" tools:ignore="UnusedResources">Ne zaman</string>
     <string name="brick_when_becomes_true" tools:ignore="UnusedResources">Olurşa</string>
@@ -1155,7 +1155,7 @@ bekleyin</string>
     <string name="notification_upload_title_finished">"Bak "</string>
     <string name="notification_upload_pending">Topluluğa Yükleme Devam Ediyor</string>
     <string name="notification_upload_finished">Yükleme Başarılı</string>
-    <string name="notification_upload_rejected">Yüklenen program rededildi</string>
+    <string name="notification_upload_rejected">Yüklenen proje rededildi</string>
     <string name="notification_upload_retry">Yeniden deneyin</string>
     <string name="notification_open_play_store">Uygulama mağazasını aç</string>
     <string name="notification_download_title_pending">"İndiriliyor…"</string>
@@ -1181,7 +1181,7 @@ bekleyin</string>
     <string name="error_upload_project_with_default_name">\"İlk projem\" adıyla bir proje yükleyemezsiniz. Lütfen projeyi yeniden adlandırın.</string>
     <string name="error_upload_default_project">Değiştirilmemiş bir örnek proje yükleyemezsiniz. Lütfen bir şeyi değiştirip tekrar deneyin.</string>
     <string name="error_adding_brick">Bu tuğla eklenirken bir hata oluştu</string>
-    <string name="error_copying_brick">Bu tuğla kopyalanırken bir hata oluştu</string>
+    <string name="error_copying_brick">Bu tuğla kopyalanırken bir hata oluştu.</string>
     <string name="error_rename_incompatible_project">Uyumsuz bir projenin yeniden adlandırılması mümkün değildir.</string>
     <string name="error_embroidery_file_export">Nakış dosyası paylaşılırken bir sorun oluştu.</string>
     <string name="error_embroidery_file_write">Nakış dosyası yazılırken bir şeyler ters gitti.</string>
@@ -1623,6 +1623,7 @@ bekleyin</string>
     <string name="formula_editor_object_brightness" tools:ignore="UnusedResources">parlaklık</string>
     <string name="formula_editor_object_size" tools:ignore="UnusedResources">boyut</string>
     <string name="formula_editor_object_rotation" tools:ignore="UnusedResources">yön</string>
+    <string name="formula_editor_object_rotation_look" tools:ignore="UnusedResources">yön bak</string>
     <string name="formula_editor_object_layer" tools:ignore="UnusedResources">Katman</string>
     <string name="formula_editor_object_x_velocity" tools:ignore="UnusedResources">x hızı</string>
     <string name="formula_editor_object_y_velocity" tools:ignore="UnusedResources">y hızı</string>
@@ -1785,7 +1786,7 @@ bekleyin</string>
         ve indirebildiği uygulamanın paylaşım sitesine yüklenir. 
         Aynı zamanda programınızı bağımsız bir uygulama olarak da indirebilirsiniz.</string>
     <string name="progress_upload_dialog_failed">Yükleme başarısız. Lütfen internet bağlantınızı kontrol edin ve tekrar deneyin!</string>
-    <string name="progress_upload_dialog_show_program">Programı göster</string>
+    <string name="progress_upload_dialog_show_program">Projeyi göster</string>
     <!--  -->
     <!-- unchanged upload dialog -->
     <string name="unchanged_upload_warning">Yüklemeye çalıştığınız Remix projenizde
@@ -1834,4 +1835,6 @@ bekleyin</string>
     <string name="no_variable_selected">Değişken seçilmedi</string>
     <string name="find">Bul</string>
     <string name="no_results_found">Sonuç bulunamadı</string>
+    <string name="cut">Kes</string>
+    <string name="paste">Yapıştır</string>
 </resources>

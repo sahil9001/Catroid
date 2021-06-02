@@ -29,9 +29,9 @@
     <string name="redo" tools:ignore="UnusedResources">আবার করুন</string>
     <string name="undo" tools:ignore="UnusedResources">পূর্বাবস্থায় ফিরুন</string>
     <string name="new_option">শুরু</string>
-    <string name="edit_option">edit&#8230;</string>
+    <string name="edit_option">সম্পাদনা করুন&#8230;</string>
     <string name="confirm">নিশ্চিত</string>
-    <string name="ignore">Ignore</string>
+    <string name="ignore">উপেক্ষা করুন</string>
     <string name="cancel">বাতিল</string>
     <string name="save">সংরক্ষণ করুন</string>
     <string name="discard">বাতিল করুন</string>
@@ -39,14 +39,14 @@
     <string name="ok">সঠিক</string>
     <string name="done">করা হয়েছে</string>
     <string name="close" tools:ignore="UnusedResources">বন্ধ</string>
-    <string name="assistant">Assistant</string>
+    <string name="assistant">সহকারী</string>
     <string name="yes">হ্যাঁ</string>
     <string name="no">না</string>
-    <string name="once">Once</string>
-    <string name="always">Always</string>
-    <string name="deny">Deny</string>
-    <string name="accept">Accept</string>
-    <string name="decline">Decline</string>
+    <string name="once">একদা</string>
+    <string name="always">সর্বদা</string>
+    <string name="deny">অস্বীকার করুন</string>
+    <string name="accept">গ্রহণ করুন</string>
+    <string name="decline">অস্বীকার</string>
     <string name="select_all">সব নির্বাচন করুন</string>
     <string name="deselect_all">সব নির্বাচন প্রত্যাহার করুন</string>
     <string name="skip">এড়িয়ে যান</string>
@@ -58,19 +58,19 @@
     <string name="backpack_add">ব্যাকপ্যাক যোগ করুন</string>
     <string name="share_website_text">share.catrob.at</string>
     <!-- Security warning dialog -->
-    <string name="security_warning_dialog_msg">The project you have downloaded listens to your voice
-        in the background and also sends data to the internet. This may be harmless, and necessary
-        for its intended behavior. However, please make sure that what you are saying while the
-        project is running is safe. In case of doubt, please delete the downloaded project.
-        You may also report the project on its page on the Catrobat community platform in case
-        you are sure that it is harmful.</string>
+    <string name="security_warning_dialog_msg">আপনি যে প্রকল্পটি ডাউনলোড করেছেন তা আপনার ভয়েস শুনে
+        ব্যাকগ্রাউন্ডে এবং ইন্টারনেটে ডেটা প্রেরণ করে। এটি নিরীহ এবং প্রয়োজনীয় হতে পারে
+        এর উদ্দেশ্যমূলক আচরণের জন্য। তবে দয়া করে নিশ্চিত হয়ে নিন যে আপনি যখন যা বলছেন তা
+        প্রকল্প চলছে নিরাপদ। সন্দেহের ক্ষেত্রে, দয়া করে ডাউনলোড করা প্রকল্পটি মুছুন।
+        আপনি যদি এর পৃষ্ঠায় প্রকল্পটি কেট্রোব্যাট সম্প্রদায় প্ল্যাটফর্মে রিপোর্ট করতে পারেন
+        আপনি নিশ্চিত যে এটি ক্ষতিকারক।</string>
     <!-- Replace Api dialog -->
-    <string name="api_replacement_dialog_neutral">Upload without change</string>
-    <string name="api_replacement_dialog_accept">Upload with keys replaced</string>
-    <string name="api_replacement_dialog_warning">The project contains bricks that access the
-        web, and also seems to contain API keys. Please see %1s why
-        uploading these keys can be dangerous.</string>
-    <string name="api_replacement">insert API key here</string>
+    <string name="api_replacement_dialog_neutral">পরিবর্তন ছাড়াই আপলোড করুন</string>
+    <string name="api_replacement_dialog_accept">কীগুলি প্রতিস্থাপনের সাথে আপলোড করুন</string>
+    <string name="api_replacement_dialog_warning">প্রকল্পটিতে ইট রয়েছে যা অ্যাক্সেস করে
+        ওয়েব এবং এপিআই কীগুলি রয়েছে বলে মনে হয়। কেন %1s দেখুন
+        এই কীগুলি আপলোড করা বিপজ্জনক হতে পারে।</string>
+    <string name="api_replacement">এখানে API কী sertোকান</string>
     <!-- -->
     <!-- Login/Logout Mechanism -->
     <string name="loading_check_oauth_token">লগইন ডেটা পরীক্ষা করা হচ্ছে</string>
@@ -104,19 +104,19 @@
     <string name="marketing_created_with">সঙ্গে তৈরি</string>
     <string name="marketing_app_details">এই অ্যাপ্লিকেশন সম্পর্কে বিস্তারিত</string>
     <string name="marketing_more_on_google_play">অ্যাপ স্টোরের আরও অ্যাপস</string>
-    <string name="error_cannot_open_huawei_app_gallery">Whoops! Failed to open Huawei AppGallery,
-        please try again later.</string>
+    <string name="error_cannot_open_huawei_app_gallery">উফফফফ! হুয়াওয়ে অ্যাপগ্যালারি খুলতে ব্যর্থ হয়েছে,
+        পরে আবার চেষ্টা করুন.</string>
     <string name="google_play_store_logo">গুগল প্লে</string>
-    <string name="huawei_app_gallery">Huawei App Gallery</string>
+    <string name="huawei_app_gallery">হুয়াওয়ে অ্যাপ গ্যালারী</string>
     <!-- NFC activity -->
-    <string name="nfc_activity_title">NFC tags</string>
+    <string name="nfc_activity_title">এনএফসি ট্যাগ</string>
     <!-- Settings activity -->
     <string name="preference_title">সেটিংস</string>
     <string name="preference_title_language">ভাষা</string>
     <string name="preference_description_language">অ্যাপ্লিকেশনটির ভাষা নির্বাচন করুন</string>
-    <string name="preference_title_web_access">Web access</string>
-    <string name="preference_description_web_access">Edit to add or remove trusted domains</string>
-    <string name="preference_screen_web_access_title">Edit trusted domains</string>
+    <string name="preference_title_web_access">ওয়েব অ্যাক্সেস</string>
+    <string name="preference_description_web_access">বিশ্বস্ত ডোমেন যুক্ত করতে বা সরাতে সম্পাদনা করুন</string>
+    <string name="preference_screen_web_access_title">বিশ্বস্ত ডোমেনগুলি সম্পাদনা করুন</string>
     <string name="preference_title_accessibility">প্রবেশযোগ্যতা</string>
     <string name="preference_description_accessibility">অ্যাপ্লিকেশনটির চেহারা পরিবর্তন করুন</string>
     <string name="preference_title_accessibility_profiles">প্রবেশযোগ্য প্রোফাইল</string>
@@ -192,11 +192,11 @@
     <string name="preference_raspi_host">রাস্পবেরি পাই আইপি- / হোস্ট-ঠিকানা</string>
     <string name="preference_raspi_port">রাস্পবেরি পাই বন্দর</string>
     <!--  -->
-    <string name="preference_title_multiplayer_variables_enabled">Multiplayer extension</string>
-    <string name="preference_description_multiplayer_variables_enabled">Allow the app to use
-        multiplayer variables shared via Bluetooth</string>
-    <string name="preference_title_enable_test_bricks">Testing extension</string>
-    <string name="preference_description_test_bricks">Allows to create tests</string>
+    <string name="preference_title_multiplayer_variables_enabled">মাল্টিপ্লেয়ার এক্সটেনশন</string>
+    <string name="preference_description_multiplayer_variables_enabled">অ্যাপ্লিকেশনটি ব্যবহারের অনুমতি দিন
+        মাল্টপ্লেয়ার ভেরিয়েবলগুলি ব্লুটুথের মাধ্যমে ভাগ করা</string>
+    <string name="preference_title_enable_test_bricks">পরীক্ষার এক্সটেনশন</string>
+    <string name="preference_description_test_bricks">পরীক্ষা তৈরি করার অনুমতি দেয়</string>
     <!-- Scratch Converter activity -->
     <string name="beta">বিটা</string>
     <string name="error_scratch_program_not_accessible_any_more">ওহহ! প্রজেক্টটি অদৃশ্য হয়ে গেছে বলে মনে হচ্ছে
@@ -257,7 +257,7 @@
     <string name="mode">ধরণ: </string>
     <string name="remix_of">রিমিক্স</string>
     <string name="description_hint">বর্ণনা যুক্ত করতে চাপুন</string>
-    <string name="notes_and_credits_hint">Press to add notes and credits</string>
+    <string name="notes_and_credits_hint">নোট এবং ক্রেডিট যুক্ত করতে টিপুন</string>
     <!-- ScratchReconvertDialog Strings -->
     <string name="reconvert_text">আপনি এই প্রকল্পটি %1$s আগে রূপান্তর করেছেন।</string>
     <plurals name="minutes">
@@ -277,8 +277,8 @@
     <!--  -->
     <!-- ERRORS -->
     <!-- Terms of Use and Service Error -->
-    <string name="declined_terms_of_use_and_service_alert">To use our app, it is necessary to accept our Terms of Use and Service.
-        However, if you don\’t feel comfortable to do so, you can use our free web-services on</string>
+    <string name="declined_terms_of_use_and_service_alert">আমাদের অ্যাপ্লিকেশনটি ব্যবহার করার জন্য, আমাদের ব্যবহারের শর্তাদি এবং পরিষেবার গ্রহণ করা প্রয়োজন।
+        তবে, যদি আপনি এটি করতে স্বাচ্ছন্দ্য বোধ করেন না তবে আপনি আমাদের বিনামূল্যে ওয়েব-পরিষেবাগুলি ব্যবহার করতে পারেন</string>
     <string name="wtf_error">একটি অপ্রত্যাশিত ভুল ঘটেছে: আমি নমুনা প্রজেক্টটি পুনরুদ্ধার করতে পারিনি।</string>
     <!-- Project Handling Errors -->
     <string name="error_copy_project">প্রজেক্টটি অনুলিপি করার সময় একটি ভুল ঘটেছে</string>
@@ -306,9 +306,9 @@
     <string name="merge">একত্রীকরণ</string>
     <string name="show_details">বিস্তারিত প্রদর্শন করুন</string>
     <string name="hide_details">বিস্তারিতকে আড়াল করুন</string>
-    <string name="project_options">Project options</string>
-    <string name="sort_projects">Sort</string>
-    <string name="unsort_projects">Unsort</string>
+    <string name="project_options">প্রকল্পের বিকল্পগুলি</string>
+    <string name="sort_projects">সাজান</string>
+    <string name="unsort_projects">আনসোর্ট করা</string>
     <!-- New Dialog Titles -->
     <string name="new_scene_dialog">নতুন দৃশ্য</string>
     <!-- Delete Dialog Titles -->
@@ -351,9 +351,9 @@
     <string name="nfc_tag_name_label">এনএফসি ট্যাগ নাম</string>
     <string name="string_label">পাঠ্য</string>
     <string name="data_label">নাম</string>
-    <string name="keyword_label">Insert keyword</string>
-    <string name="html_label">Insert HTML text</string>
-    <string name="Image_format_not_supported">Image format not supported</string>
+    <string name="keyword_label">কীওয়ার্ড .োকান</string>
+    <string name="html_label">এইচটিএমএল পাঠ্য সন্নিবেশ করুন</string>
+    <string name="Image_format_not_supported">চিত্র বিন্যাস সমর্থিত নয়</string>
     <!-- Details -->
     <string name="project_details">শেষ অ্যাক্সেস: %s, আকার: %s</string>
     <string name="last_access_today">আজ, %s</string>
@@ -373,7 +373,7 @@
     <string name="rename_data_dialog">নাম পরিবর্তন</string>
     <!-- New Script Group Dialog -->
     <string name="new_group">নতুন দল</string>
-    <string name="default_group_name">Group</string>
+    <string name="default_group_name">দল</string>
     <!-- New Scene Menu -->
     <string name="new_scene">নতুন দৃশ্য</string>
     <!-- Action Toasts -->
@@ -477,8 +477,8 @@
     <string name="size">আকার</string>
     <string name="description">বর্ণনা:</string>
     <string name="set_description">বর্ণনা করুন</string>
-    <string name="notes_and_credits_title">Notes and credits:</string>
-    <string name="set_notes_and_credits">Set notes and credits</string>
+    <string name="notes_and_credits_title">নোট এবং ক্রেডিট:</string>
+    <string name="set_notes_and_credits">নোট এবং ক্রেডিট সেট করুন</string>
     <string name="details_date_today">আজ</string>
     <string name="import_project">প্রজেক্ট আমদানি করুন</string>
     <string name="error_import_project">প্রজেক্টসমূহ আমদানি করার সময় কিছু ভুল হয়েছে।</string>
@@ -487,9 +487,9 @@
     <string name="project_options_description">বর্ণনা</string>
     <string name="project_options_notes_and_credits">Credits</string>
     <string name="project_options_tags">ট্যাগ</string>
-    <string name="project_options_aspect_ratio">Keep original aspect ratio</string>
-    <string name="project_options_more_details">More details</string>
-    <string name="project_options_delete_project">Delete project</string>
+    <string name="project_options_aspect_ratio">আসল দিক অনুপাত রাখুন</string>
+    <string name="project_options_more_details">আরো বিস্তারিত</string>
+    <string name="project_options_delete_project">প্রকল্প মুছুন</string>
     <!-- ScriptListFragment -->
     <string name="fragment_script_text_description">স্ক্রিপ্টগুলি যুক্ত করতে \"+\" আলতো চাপুন</string>
     <!--  -->
@@ -522,28 +522,28 @@
     <string name="tnf_well_known_mailto">ই-মেল</string>
     <!--  -->
     <!-- DataListFragment -->
-    <string name="multiplayer_vars_headline">Variables for connected devices</string>
+    <string name="multiplayer_vars_headline">সংযুক্ত ডিভাইসগুলির জন্য পরিবর্তনীয়</string>
     <string name="global_vars_headline">সমস্ত অভিনেতা এবং অবজেক্টের জন্য ভেরিয়েবল</string>
     <string name="local_vars_headline">কেবল এই অভিনেতা এবং অবজেক্টের জন্য ভেরিয়েবল</string>
     <string name="global_lists_headline">সমস্ত অভিনেতা এবং অবজেক্টের জন্য তালিকা</string>
     <string name="local_lists_headline">কেবল এই অভিনেতা বা অবজেক্টের জন্য তালিকা</string>
-    <string name="fragment_data_text_description">Tap \"+\" to add\nvariables or lists</string>
+    <string name="fragment_data_text_description">ভেরিয়েবল বা তালিকাগুলি যোগ করতে\n \"+\" আলতো চাপুন</string>
     <plurals name="user_defined_brick_input_headline">
-        <item quantity="one">Input for this brick</item>
-        <item quantity="other">Inputs for this brick</item>
+        <item quantity="one">এই ইটের জন্য ইনপুট</item>
+        <item quantity="other">এই ইট জন্য ইনপুট</item>
     </plurals>
     <!-- NewDataDialog -->
     <string name="new_data_for_all_sprites">সমস্ত দৃশ্যে সমস্ত অভিনেতা, বস্তু এবং ক্লোনগুলির জন্য</string>
     <string name="new_data_for_this_sprite_only">এই অভিনেতা, অবজেক্ট, বা শুধুমাত্র এর ক্লোনগুলির একটির জন্য</string>
-    <string name="new_data_for_connected_devices">For all actors, objects, and clones in all scenes of projects
-        on connected multiplayer devices</string>
+    <string name="new_data_for_connected_devices">প্রকল্পের সমস্ত দৃশ্যে সমস্ত অভিনেতা, বস্তু এবং ক্লোনগুলির জন্য
+        সংযুক্ত মাল্টিপ্লেয়ার ডিভাইসে</string>
     <!-- Backpack -->
     <string name="backpack_title">আপনার ব্যাকপ্যাক</string>
     <string name="pack">মোড়ক</string>
     <string name="unpack">মোড়ক খোলা</string>
     <!--  -->
     <!-- NewProjectDialog -->
-    <string name="new_project_dialog_example_project">Example project</string>
+    <string name="new_project_dialog_example_project">উদাহরণ প্রকল্প</string>
     <!--  -->
     <!-- NewMergedProjectDialog -->
     <string name="new_merge_project_dialog_title">একত্রিত প্রজেক্ট</string>
@@ -565,7 +565,7 @@
     <string name="add_sound_choose_file">ফাইল নির্বাচন করুন</string>
     <string name="add_sound_music">সুরকার</string>
     <!-- NotePickerDialog -->
-    <string name="note_picker_title">Note Picker</string>
+    <string name="note_picker_title">নোট পিকার</string>
     <!--  -->
     <!-- Rating Dialog -->
     <string name="rating_dialog_title">অ্যাপ্লিকেশন সম্পর্কে মতামত দিন</string>
@@ -581,25 +581,25 @@
     <!--  -->
     <!-- Privacy Policy -->
     <string name="disclaimer_privacy_police_header_headline">স্বাগতম</string>
-    <string name="disclaimer_privacy_policy_header">To use this app, please accept our</string>
+    <string name="disclaimer_privacy_policy_header">এই অ্যাপ্লিকেশনটি ব্যবহার করতে, দয়া করে আমাদের গ্রহণ করুন</string>
     <!-- -->
     <!-- About Dialog -->
     <string name="dialog_about_title">অ্যাপ সম্পর্কে</string>
     <string name="dialog_about_license_info">এই অ্যাপটি ভিজ্যুয়াল প্রোগ্রামিং ল্যাঙ্গুয়েজ ক্যাট্রোব্যাটের জন্য একটি কোডিং পরিবেশ এবং অনুবাদক দেয়। এই অ্যাপ্লিকেশনটির সোর্স কোডটি মূলত জিএনইউ এজিপিএল ভি 3 লাইসেন্সের আওতায় লাইসেন্সযুক্ত। লাইসেন্স সম্পর্কিত আরও তথ্যের জন্য নীচের লিঙ্কটি দেখুন।</string>
     <string name="dialog_about_license_link_text">সোর্স কোড লাইসেন্স</string>
     <string name="dialog_about_catrobat_link_text">ক্যাট্রোব্যাট সম্পর্কে</string>
-    <string name="dialog_about_catrobat_language_version">Catrobat language version</string>
-    <string name="dialog_about_version">version:</string>
+    <string name="dialog_about_catrobat_language_version">ক্যাট্রোব্যাট ভাষার সংস্করণ</string>
+    <string name="dialog_about_version">সংস্করণ:</string>
     <!--  -->
     <!-- NetworkAlertDialog -->
     <string name="error_no_network_title">নেটওয়ার্ক নেই</string>
     <!-- UploadProjectDialog -->
     <string name="upload_project_dialog_title">আপলোডকৃত প্রজেক্ট</string>
     <string name="upload_description">বর্ণনা:</string>
-    <string name="upload_notes_and_credits">Notes and credits:</string>
-    <string name="upload_notes_and_credits_explanation">How did you create this project? Did you use ideas, scripts or artwork from other people? Thank them here.</string>
+    <string name="upload_notes_and_credits">নোট এবং ক্রেডিট:</string>
+    <string name="upload_notes_and_credits_explanation">আপনি এই প্রকল্পটি কীভাবে তৈরি করলেন? আপনি অন্যান্য ব্যক্তিদের কাছ থেকে ধারণা, স্ক্রিপ্ট বা শিল্পকর্ম ব্যবহার করেছেন? তাদের এখানে ধন্যবাদ।</string>
     <string name="upload_tag_dialog_title">তিনটি বিভাগ পর্যন্ত নির্বাচন করুন</string>
-    <string name="upload_tags_maximum_error">Selecting more than 3 tags is not possible.</string>
+    <string name="upload_tags_maximum_error">3 টিরও বেশি ট্যাগ নির্বাচন করা সম্ভব নয়।</string>
     <!-- Save Project to External Storage -->
     <string name="save_to_external_storage_button">বাহ্যিক স্টোরেজে প্রজেক্টটি সংরক্ষণ করুন</string>
     <string name="notification_save_project_to_external_storage_title_pending">" "</string>
@@ -615,25 +615,25 @@
     <string name="soundrecorder_text_view">রেকর্ডিং শুরু করতে এবং বন্ধ করতে উপরের আইকনটিতে আলতো চাপুন।</string>
     <!--  -->
     <!-- Brick context dialog -->
-    <string name="brick_context_dialog_move_brick">Move brick</string>
+    <string name="brick_context_dialog_move_brick">ইট সরান</string>
     <string name="brick_context_dialog_move_script">স্ক্রিপ্ট সরান</string>
-    <string name="brick_context_dialog_move_definition">Move this definition</string>
-    <string name="brick_context_dialog_delete_brick" tools:ignore="UnusedResources">Delete brick</string>
-    <string name="brick_context_dialog_copy_brick">Copy brick</string>
+    <string name="brick_context_dialog_move_definition">এই সংজ্ঞাটি সরান</string>
+    <string name="brick_context_dialog_delete_brick" tools:ignore="UnusedResources">ইট মুছুন</string>
+    <string name="brick_context_dialog_copy_brick">অনুলিপি ইট</string>
     <string name="brick_context_dialog_copy_script">স্ক্রিপ্ট অনুলিপি করুন</string>
-    <string name="brick_context_dialog_formula_edit_brick">Edit formula</string>
-    <string name="brick_context_dialog_delete_script">Delete script</string>
-    <string name="brick_context_dialog_delete_definition">Delete this definition</string>
-    <string name="brick_context_dialog_comment_in">Enable brick</string>
-    <string name="brick_context_dialog_comment_out">Disable brick</string>
+    <string name="brick_context_dialog_formula_edit_brick">সূত্র সম্পাদনা করুন</string>
+    <string name="brick_context_dialog_delete_script">স্ক্রিপ্ট মুছুন</string>
+    <string name="brick_context_dialog_delete_definition">এই সংজ্ঞা মুছুন</string>
+    <string name="brick_context_dialog_comment_in">ইট সক্ষম করুন</string>
+    <string name="brick_context_dialog_comment_out">ইট অক্ষম করুন</string>
     <string name="brick_context_dialog_highlight_brick_parts">ব্রিকের অংশগুলি হাইলাইট করুন</string>
     <string name="brick_context_dialog_comment_in_script">স্ক্রিপ্ট সক্ষম করুন</string>
     <string name="brick_context_dialog_comment_out_script">স্ক্রিপ্ট অক্ষম করুন</string>
     <string name="brick_context_dialog_help">সাহায্য</string>
     <string name="comment_in_out">অক্ষম / সক্ষম করুন</string>
-    <string name="catblocks">Toggle 2D</string>
-    <string name="catblocks_reorder">Clean up scripts</string>
-    <string name="switch_to_1d" tools:ignore="UnusedResources">1D view</string>
+    <string name="catblocks">2D টগল করুন</string>
+    <string name="catblocks_reorder">স্ক্রিপ্টগুলি পরিষ্কার করুন</string>
+    <string name="switch_to_1d" tools:ignore="UnusedResources">1 ডি ভিউ</string>
     <!--  -->
     <!-- Play scene dialog -->
     <string name="play_scene_dialog_title">খেলার দৃশ্য:</string>
@@ -644,7 +644,7 @@
     <string name="sign_in_dialog_title">সাইন ইন</string>
     <string name="username">ব্যবহারকারীর নাম</string>
     <string name="password">পাসওয়ার্ড</string>
-    <string name="reset_password">Reset password</string>
+    <string name="reset_password">পাসওয়ার্ড রিসেট করুন</string>
     <string name="new_user_registered">নতুন অ্যাকাউন্ট তৈরি করা হয়েছে</string>
     <string name="user_logged_in">সফল লগইন</string>
     <string name="register_error">লগইন অবৈধ</string>
@@ -664,7 +664,7 @@
     <string name="error_google_plus_sign_in">গুগল সাইন ইন ভুল। অবস্থান: %s</string>
     <string name="error_session_expired">সেশনটির মেয়াদ শেষ হয়েছে, দয়া করে লগ ইন করুন।</string>
     <string name="error_register_empty_username">ব্যবহারকারীর নাম খালি</string>
-    <string name="error_register_username_as_email">Email address cannot be used as username</string>
+    <string name="error_register_username_as_email">ইমেল ঠিকানা ব্যবহারকারীর নাম হিসাবে ব্যবহার করা যাবে না</string>
     <string name="error_register_invalid_username">ব্যবহারকারীর নামটিতে শুধুমাত্র থাকা  উচিত অক্ষর (a – z), সংখ্যা (0–9), ড্যাশ (-), আন্ডারস্কোর (_) এবং পিরিয়ড (।).</string>
     <string name="error_register_username_start_with">ব্যবহারকারীর নামটি শুরু করা উচিত নয় ড্যাশ (-), আন্ডারস্কোর (_), বা  পিরিয়ডস (।) দিয়ে।</string>
     <string name="error_register_invalid_email_format">ভুল ইমেল ফরম্যাট</string>
@@ -689,18 +689,18 @@
     <string name="prestage_text_to_speech_engine_not_installed">পাঠ্য থেকে স্পিচ ইঞ্জিন ইনস্টল করা হয়নি! আপনি কি এটি ইনস্টল করতে চান?</string>
     <string name="prestage_resource_not_available_title">উপাদানটি নেই</string>
     <string name="prestage_resource_not_available_text">দুর্ভাগ্যক্রমে এই প্রজেক্টটি আপনার ডিভাইসে কাজ করে না। নিম্নলিখিত উপাদানগুলি অনুপস্থিত:</string>
-    <string name="prestage_no_vibration_available">\u2022 Vibration\n</string>
+    <string name="prestage_no_vibration_available">\u2022 কম্পন \n</string>
     <string name="prestage_no_acceleration_sensor_available">\u2022 ত্বরণ সেন্সর \n</string>
     <string name="prestage_no_inclination_sensor_available">\u2022 প্রবণতা সেন্সর \n</string>
     <string name="prestage_no_compass_sensor_available">\u2022 কম্পাস  \n</string>
     <string name="prestage_no_gps_sensor_available">\u2022 ভৌগলিক-অবস্থান \n</string>
     <string name="prestage_text_to_speech_error">\u2022 পাঠ্য থেকে স্পিচ ইঞ্জিন \n</string>
     <string name="prestage_no_back_camera_available">\u2022 পেছনের ক্যামেরা \n</string>
-    <string name="prestage_no_face_detection_available">\u2022 Face detection\n</string>
-    <string name="prestage_no_text_detection_available">\u2022 Text detection\n</string>
+    <string name="prestage_no_face_detection_available">\u2022 মুখ সনাক্তকরণ\n</string>
+    <string name="prestage_no_text_detection_available">\u2022 পাঠ্য সনাক্তকরণ\n</string>
     <string name="prestage_no_front_camera_available">\u2022 সামনের ক্যামেরা \n</string>
-    <string name="prestage_no_camera_available">\u2022 Camera\n</string>
-    <string name="prestage_no_flash_available">\u2022 Flashlight\n</string>
+    <string name="prestage_no_camera_available">\u2022 ক্যামেরা\n</string>
+    <string name="prestage_no_flash_available">\u2022 টর্চলাইট\n</string>
     <string name="prestage_default_resource_not_available">\u2022 অজানা উপাদান \n</string>
     <string name="no_nfc_available">এনএফসি পাওয়া যায়নি</string>
     <string name="nfc_not_activated">অনুগ্রহ করে এনএফসি সক্রিয় করুন এবং অ্যাপটিতে ফিরে আসতে পুনরায় চাপুন</string>
@@ -718,11 +718,11 @@
     <!--  -->
     <!-- Broadcast spinner -->
     <string name="dialog_new_broadcast_message_title">নতুন বার্তা</string>
-    <string name="dialog_broadcast_message_name">message:</string>
-    <string name="dialog_edit_broadcast_message_title">Edit message</string>
+    <string name="dialog_broadcast_message_name">বার্তা:</string>
+    <string name="dialog_edit_broadcast_message_title">বার্তা সম্পাদনা করুন</string>
     <!--  -->
     <!-- NFC spinner -->
-    <string name="brick_when_nfc_edit_list_of_nfc_tags">Edit list of NFC tags</string>
+    <string name="brick_when_nfc_edit_list_of_nfc_tags">এনএফসি ট্যাগগুলির তালিকা সম্পাদনা করুন</string>
     <string name="brick_when_nfc_default_all">সব</string>
     <!-- -->
     <!-- Brick categories -->
@@ -734,9 +734,9 @@
     <string name="category_sound" tools:ignore="UnusedResources">শব্দ</string>
     <string name="category_control" tools:ignore="UnusedResources">নিয়ন্ত্রণ</string>
     <string name="category_event" tools:ignore="UnusedResources">ঘটনা</string>
-    <string name="category_user_bricks" tools:ignore="UnusedResources">Your bricks</string>
+    <string name="category_user_bricks" tools:ignore="UnusedResources">আপনার ইট</string>
     <string name="category_data" tools:ignore="UnusedResources">তথ্য</string>
-    <string name="category_device" tools:ignore="UnusedResources">Device</string>
+    <string name="category_device" tools:ignore="UnusedResources">যন্ত্র</string>
     <string name="category_lego_nxt" tools:ignore="UnusedResources">লেগো এনএক্সটি</string>
     <string name="category_lego_ev3" tools:ignore="UnusedResources">লেগো ইভি 3</string>
     <string name="category_drone" tools:ignore="UnusedResources">এআর.ড্রোন ২.০</string>
@@ -748,21 +748,21 @@
     <string name="category_assertions" tools:ignore="UnusedResources">পরীক্ষামূলক</string>
     <!--  -->
     <!-- User Defined Bricks -->
-    <string name="brick_user_defined_add_label">Add label</string>
-    <string name="brick_user_defined_add_input">Add input</string>
-    <string name="brick_user_defined_add_input_description">Add input for this brick:</string>
-    <string name="brick_user_defined_add_label_description">Add label for this brick:</string>
-    <string name="brick_user_defined_default_input_name">Name of input</string>
-    <string name="brick_user_defined_default_label">Label text</string>
-    <string name="brick_user_defined_already_exists">A brick with these labels already exists. Please add more labels or inputs.</string>
-    <string name="brick_user_defined_script_define" tools:ignore="UnusedResources">Define</string>
-    <string name="brick_user_defined_script_as" tools:ignore="UnusedResources">as</string>
-    <string name="brick_user_defined_list_empty">Tap \"+\" to add your own new bricks.</string>
+    <string name="brick_user_defined_add_label">লেবেল যুক্ত করুন</string>
+    <string name="brick_user_defined_add_input">ইনপুট যুক্ত করুন</string>
+    <string name="brick_user_defined_add_input_description">এই ইটের জন্য ইনপুট যুক্ত করুন:</string>
+    <string name="brick_user_defined_add_label_description">এই ইটের জন্য লেবেল যুক্ত করুন:</string>
+    <string name="brick_user_defined_default_input_name">ইনপুট নাম</string>
+    <string name="brick_user_defined_default_label">লেবেল পাঠ্য</string>
+    <string name="brick_user_defined_already_exists">এই লেবেলযুক্ত একটি ইট ইতিমধ্যে বিদ্যমান। দয়া করে আরও লেবেল বা ইনপুট যুক্ত করুন।</string>
+    <string name="brick_user_defined_script_define" tools:ignore="UnusedResources">সংজ্ঞা দিন</string>
+    <string name="brick_user_defined_script_as" tools:ignore="UnusedResources">যেমন</string>
+    <string name="brick_user_defined_list_empty">আপনার নিজস্ব নতুন ইট যুক্ত করতে \"+\" আলতো চাপুন।</string>
     <string name="brick_report" tools:ignore="UnusedResources">প্রতিবেদন করুন</string>
     <!--  -->
     <!-- Motion bricks -->
     <string name="brick_place_at" tools:ignore="UnusedResources">"এ স্থান"</string>
-    <string name="brick_option_place_visually">Place visually</string>
+    <string name="brick_option_place_visually">দর্শনীয়ভাবে রাখুন</string>
     <string name="x_label" tools:ignore="UnusedResources">"x:"</string>
     <string name="y_label" tools:ignore="UnusedResources">"y:"</string>
     <string name="brick_set_x" tools:ignore="UnusedResources">"X সেট করুন"</string>
@@ -836,10 +836,10 @@
     <string name="brick_next_background">পরবর্তী ব্যাকগ্রাউন্ড</string>
     <string name="brick_previous_look" tools:ignore="UnusedResources">পূর্ববর্তী চেহারা</string>
     <string name="brick_previous_background">পূর্ববর্তী ব্যাকগ্রাউন্ড</string>
-    <string name="brick_edit_look" tools:ignore="UnusedResources">Edit look</string>
-    <string name="brick_edit_background">Edit background</string>
-    <string name="brick_delete_look" tools:ignore="UnusedResources">Delete look</string>
-    <string name="brick_delete_background">Delete background</string>
+    <string name="brick_edit_look" tools:ignore="UnusedResources">সম্পাদনা চেহারা</string>
+    <string name="brick_edit_background">পটভূমি সম্পাদনা করুন</string>
+    <string name="brick_delete_look" tools:ignore="UnusedResources">চেহারা মুছুন</string>
+    <string name="brick_delete_background">পটভূমি মুছুন</string>
     <string name="brick_flash" tools:ignore="UnusedResources">ফ্ল্যাশলাইট চালু করুন</string>
     <string name="brick_flash_on" tools:ignore="UnusedResources">চালু</string>
     <string name="brick_flash_off" tools:ignore="UnusedResources">বন্ধ</string>
@@ -852,12 +852,12 @@
     <string name="brick_ask_speech_label" tools:ignore="UnusedResources">জিজ্ঞাসা করুন</string>
     <string name="brick_ask_speech_store" tools:ignore="UnusedResources">এবং কথ্য উত্তর সঞ্চয় করুন</string>
     <string name="brick_ask_speech_default_question">তোমার নাম কি?</string>
-    <string name="brick_paint_new_look" tools:ignore="UnusedResources">Paint new look</string>
-    <string name="brick_paint_new_background">Paint new background</string>
-    <string name="brick_paint_new_look_name">"name of new look"</string>
-    <string name="brick_copy_look" tools:ignore="UnusedResources">Copy look and name it</string>
-    <string name="brick_copy_look_name">name of copied look</string>
-    <string name="brick_copy_background">Copy background and name it</string>
+    <string name="brick_paint_new_look" tools:ignore="UnusedResources">নতুন চেহারা রঙ করুন</string>
+    <string name="brick_paint_new_background">নতুন ব্যাকগ্রাউন্ড পেইন্ট করুন</string>
+    <string name="brick_paint_new_look_name">"নতুন চেহারা নাম"</string>
+    <string name="brick_copy_look" tools:ignore="UnusedResources">চেহারাটি অনুলিপি করুন এবং নাম দিন</string>
+    <string name="brick_copy_look_name">অনুলিপি চেহারা এর নাম</string>
+    <string name="brick_copy_background">পটভূমি অনুলিপি করুন এবং নাম দিন</string>
     <!--  -->
     <!-- Pen bricks -->
     <string name="brick_pen_down" tools:ignore="UnusedResources">কলম নিচে</string>
@@ -870,44 +870,44 @@
     <!-- Sound bricks -->
     <string name="brick_play_sound" tools:ignore="UnusedResources">শব্দ শুরু করুন</string>
     <string name="brick_play_sound_and_wait" tools:ignore="UnusedResources">শব্দ শুরু করুন এবং অপেক্ষা করুন</string>
-    <string name="brick_stop_sound" tools:ignore="UnusedResources">Stop sound</string>
+    <string name="brick_stop_sound" tools:ignore="UnusedResources">শব্দ বন্ধ করুন</string>
     <string name="brick_stop_all_sounds" tools:ignore="UnusedResources">সমস্ত শব্দ বন্ধ করুন</string>
     <string name="brick_set_volume_to" tools:ignore="UnusedResources">ভলিউম সেট করুন</string>
     <string name="brick_change_volume_by" tools:ignore="UnusedResources">এর মাধ্যমে ভলিউম পরিবর্তন করুন</string>
     <string name="brick_speak" tools:ignore="UnusedResources">কথা বলুন</string>
     <string name="brick_speak_default_value">হ্যালো</string>
     <string name="brick_speak_and_wait" tools:ignore="UnusedResources">এবং অপেক্ষা করুন</string>
-    <string name="brick_start_listening_to_voice" tools:ignore="UnusedResources">Start listening to voice and store spoken words in</string>
-    <string name="speech_recognition_not_available">Speech recognition isn\'t available.</string>
-    <string name="speech_recognition_offline_mode_error_dialog_title">Missing offline data</string>
-    <string name="speech_recognition_offline_mode_missing_data_error_dialog_msg">Offline speech recognition
-    for %s is missing or needs to be updated. Would you like to download or update it now?</string>
-    <string name="brick_set_listening_language" tools:ignore="UnusedResources">Set listening language to</string>
-    <string name="set_instrument_to" tools:ignore="UnusedResources">Set instrument to</string>
-    <string name="set_tempo_to" tools:ignore="UnusedResources">Set tempo to</string>
-    <string name="change_tempo_by" tools:ignore="UnusedResources">Change tempo by</string>
-    <string name="pause_for" tools:ignore="UnusedResources">Pause for</string>
-    <string name="play_drum" tools:ignore="UnusedResources">Play drum</string>
+    <string name="brick_start_listening_to_voice" tools:ignore="UnusedResources">ভয়েস শুনতে শুরু করুন এবং এতে কথ্য শব্দগুলি সংরক্ষণ করুন</string>
+    <string name="speech_recognition_not_available">স্পিচ স্বীকৃতি উপলব্ধ নয়।</string>
+    <string name="speech_recognition_offline_mode_error_dialog_title">অফলাইন ডেটা হারিয়েছে</string>
+    <string name="speech_recognition_offline_mode_missing_data_error_dialog_msg">অফলাইন স্পিচ স্বীকৃতি
+    %s এর জন্য অনুপস্থিত বা আপডেট করা দরকার। আপনি কি এখনই এটি ডাউনলোড বা আপডেট করতে চান?</string>
+    <string name="brick_set_listening_language" tools:ignore="UnusedResources">শোনা ভাষা সেট করুন</string>
+    <string name="set_instrument_to" tools:ignore="UnusedResources">ইনস্ট্রুমেন্ট সেট করুন</string>
+    <string name="set_tempo_to" tools:ignore="UnusedResources">টেম্পো সেট করুন</string>
+    <string name="change_tempo_by" tools:ignore="UnusedResources">দ্বারা টেম্পো পরিবর্তন করুন</string>
+    <string name="pause_for" tools:ignore="UnusedResources">বিরতি দিন</string>
+    <string name="play_drum" tools:ignore="UnusedResources">ড্রাম খেলো</string>
     <string name="beats" tools:ignore="UnusedResources">beats</string>
-    <string name="play_note" tools:ignore="UnusedResources">Play note</string>
+    <string name="play_note" tools:ignore="UnusedResources">প্লে নোট</string>
     <string name="for_string" tools:ignore="UnusedResources">জন্য</string>
     <!--  -->
     <!-- Embroidery bricks -->
     <string name="brick_stitch" tools:ignore="UnusedResources">সেলাই</string>
-    <string name="brick_running_stitch" tools:ignore="UnusedResources">Start running stitch with length</string>
-    <string name="brick_zigzag_stitch" tools:ignore="UnusedResources">Start zigzag stitch with length</string>
-    <string name="brick_zigzag_stitch_width" tools:ignore="UnusedResources">and width</string>
-    <string name="brick_triple_stitch" tools:ignore="UnusedResources">Start triple stitch with length</string>
-    <string name="brick_stop_stitch" tools:ignore="UnusedResources">Stop current stitch</string>
-    <string name="brick_write_embroidery" tools:ignore="UnusedResources">Write embroidery data to file</string>
-    <string name="brick_default_embroidery_file">embroidery.dst</string>
-    <string name="brick_sew_up" tools:ignore="UnusedResources">Sew up</string>
-    <string name="brick_thread_color">Set thread color to</string>
+    <string name="brick_running_stitch" tools:ignore="UnusedResources">দৈর্ঘ্য দিয়ে সেলাই চালানো শুরু করুন</string>
+    <string name="brick_zigzag_stitch" tools:ignore="UnusedResources">দৈর্ঘ্য দিয়ে জিগজ্যাগ সেলাই শুরু করুন</string>
+    <string name="brick_zigzag_stitch_width" tools:ignore="UnusedResources">এবং প্রস্থ</string>
+    <string name="brick_triple_stitch" tools:ignore="UnusedResources">দৈর্ঘ্য সহ ট্রিপল সেলাই শুরু করুন</string>
+    <string name="brick_stop_stitch" tools:ignore="UnusedResources">বর্তমান সেলাই বন্ধ করুন</string>
+    <string name="brick_write_embroidery" tools:ignore="UnusedResources">ফাইল করার জন্য এমব্রয়ডারি ডেটা লিখুন</string>
+    <string name="brick_default_embroidery_file">সূচিকর্ম.dst</string>
+    <string name="brick_sew_up" tools:ignore="UnusedResources">টুকা</string>
+    <string name="brick_thread_color">থ্রেড রঙ সেট করুন</string>
     <!--  -->
     <!-- Device bricks -->
-    <string name="brick_reset_timer" tools:ignore="UnusedResources">Reset timer</string>
+    <string name="brick_reset_timer" tools:ignore="UnusedResources">টাইমার পুনরায় সেট করুন</string>
     <string name="brick_open" tools:ignore="UnusedResources">খুলুন</string>
-    <string name="brick_in_browser" tools:ignore="UnusedResources">in browser</string>
+    <string name="brick_in_browser" tools:ignore="UnusedResources">ব্রাউজারে</string>
     <!-- Control bricks -->
     <string name="brick_when_started" tools:ignore="UnusedResources">যখন দৃশ্য শুরু হয়</string>
     <string name="brick_when" tools:ignore="UnusedResources">যখন টেপ করা হয়</string>
@@ -939,9 +939,9 @@
     <string name="brick_say_bubble" tools:ignore="UnusedResources">বলা</string>
     <string name="brick_think_say_for_text" tools:ignore="UnusedResources">জন্য</string>
     <string name="brick_forever" tools:ignore="UnusedResources">চিরতরে</string>
-    <string name="brick_loop_for_values_from" tools:ignore="UnusedResources">For values from</string>
-    <string name="brick_loop_for_each_value_from" tools:ignore="UnusedResources">For each value from</string>
-    <string name="brick_loop_in" tools:ignore="UnusedResources">in</string>
+    <string name="brick_loop_for_values_from" tools:ignore="UnusedResources">থেকে মান জন্য</string>
+    <string name="brick_loop_for_each_value_from" tools:ignore="UnusedResources">থেকে প্রতিটি মান জন্য</string>
+    <string name="brick_loop_in" tools:ignore="UnusedResources">ভিতরে</string>
     <string name="brick_loop_to" tools:ignore="UnusedResources">প্রতি</string>
     <string name="brick_repeat" tools:ignore="UnusedResources">পুনরাবৃত্তি</string>
     <string name="brick_repeat_until" tools:ignore="UnusedResources">পর্যন্ত পুনরাবৃত্তি</string>
@@ -950,32 +950,32 @@
     <string name="brick_clone_this">নিজেকে</string>
     <string name="brick_when_cloned" tools:ignore="UnusedResources">আপনি যখন ক্লোন শুরু করবেন</string>
     <string name="brick_delete_this_clone" tools:ignore="UnusedResources">এই ক্লোনটি মুছুন</string>
-    <string name="brick_assert_that" tools:ignore="UnusedResources">Assert</string>
-    <string name="brick_is_equal_to" tools:ignore="UnusedResources">equals expected</string>
+    <string name="brick_assert_that" tools:ignore="UnusedResources">জাহির করা</string>
+    <string name="brick_is_equal_to" tools:ignore="UnusedResources">সমান প্রত্যাশিত</string>
     <string name="brick_wait_till_idle" tools:ignore="UnusedResources">অন্যান্য সমস্ত স্ক্রিপ্ট বন্ধ না হওয়া পর্যন্ত অপেক্ষা করুন</string>
     <string name="brick_tap_at" tools:ignore="UnusedResources">"একটি ট্যাপ করুন"</string>
-    <string name="brick_touch_at" tools:ignore="UnusedResources">"Touch at"</string>
+    <string name="brick_touch_at" tools:ignore="UnusedResources">"স্পর্শ করুন"</string>
     <string name="brick_tap_for" tools:ignore="UnusedResources">"জন্য"</string>
-    <string name="brick_touch_slide" tools:ignore="UnusedResources">"Touch and slide"</string>
-    <string name="brick_touch_from_x" tools:ignore="UnusedResources">"from x:"</string>
-    <string name="brick_finish_stage" tools:ignore="UnusedResources">Finish stage</string>
-    <string name="brick_finish_tests" tools:ignore="UnusedResources">Finish tests</string>
-    <string name="brick_assert_lists" tools:ignore="UnusedResources">Assert lists</string>
-    <string name="brick_assert_actual" tools:ignore="UnusedResources">Actual:</string>
-    <string name="brick_assert_expected" tools:ignore="UnusedResources">Expected:</string>
-    <string name="brick_parameterized_assert" tools:ignore="UnusedResources">assert</string>
-    <string name="brick_parameterized_equals" tools:ignore="UnusedResources">equals to expected item of</string>
+    <string name="brick_touch_slide" tools:ignore="UnusedResources">"টাচ এবং স্লাইড"</string>
+    <string name="brick_touch_from_x" tools:ignore="UnusedResources">"এক্স থেকে:"</string>
+    <string name="brick_finish_stage" tools:ignore="UnusedResources">শেষ পর্যায়ে</string>
+    <string name="brick_finish_tests" tools:ignore="UnusedResources">পরীক্ষা শেষ</string>
+    <string name="brick_assert_lists" tools:ignore="UnusedResources">তালিকাগুলি যুক্ত করুন</string>
+    <string name="brick_assert_actual" tools:ignore="UnusedResources">আসল:</string>
+    <string name="brick_assert_expected" tools:ignore="UnusedResources">প্রত্যাশিত:</string>
+    <string name="brick_parameterized_assert" tools:ignore="UnusedResources">জাহির করা</string>
+    <string name="brick_parameterized_equals" tools:ignore="UnusedResources">এর প্রত্যাশিত আইটেমের সমান</string>
     <plurals name="brick_parameterized_foreach_plural">
-        <item quantity="one">For each item of</item>
-        <item quantity="other">For each tuple of items of</item>
+        <item quantity="one">প্রতিটি আইটেমের জন্য</item>
+        <item quantity="other">আইটেম প্রতিটি tuple জন্য</item>
     </plurals>
     <plurals name="brick_parameterized_stored_plural">
-        <item quantity="one">stored in variable with the same name</item>
-        <item quantity="other">stored in variables with the same names</item>
+        <item quantity="one">একই নামের সাথে ভেরিয়েবলে সঞ্চিত</item>
+        <item quantity="other">একই নামের সাথে ভেরিয়েবলে সঞ্চিত</item>
     </plurals>
     <plurals name="list_selection_plural">
-        <item quantity="one">%d list selected</item>
-        <item quantity="other">%d lists selected</item>
+        <item quantity="one">%d তালিকা নির্বাচিত হয়েছে</item>
+        <item quantity="other">%d তালিকা নির্বাচন করা হয়েছে</item>
     </plurals>
     <plurals name="time_plural">
         <item quantity="one">সময়</item>
@@ -990,24 +990,24 @@
     <string name="brick_change_variable" tools:ignore="UnusedResources">ভ্যারিয়েবল পরিবর্তন করুন</string>
     <string name="brick_write_variable_on_device" tools:ignore="UnusedResources">ডিভাইসে ভ্যারিয়েবল লিখুন</string>
     <string name="brick_read_variable_from_device" tools:ignore="UnusedResources">ডিভাইস থেকে ভেরিয়েবল পড়ুন</string>
-    <string name="brick_write_variable_to_file_top" tools:ignore="UnusedResources">Write variable</string>
-    <string name="brick_write_variable_to_file_bottom" tools:ignore="UnusedResources">to file</string>
-    <string name="brick_write_variable_to_file_default_value">variable.txt</string>
-    <string name="brick_write_variable_to_file_success">"Data successfully written to %1$s"</string>
-    <string name="brick_read_variable_from_file_top" tools:ignore="UnusedResources">Read variable</string>
-    <string name="brick_read_variable_from_file_center" tools:ignore="UnusedResources">from file</string>
+    <string name="brick_write_variable_to_file_top" tools:ignore="UnusedResources">পরিবর্তনশীল লিখুন</string>
+    <string name="brick_write_variable_to_file_bottom" tools:ignore="UnusedResources">নথিতে</string>
+    <string name="brick_write_variable_to_file_default_value">পরিবর্তনশীল.txt</string>
+    <string name="brick_write_variable_to_file_success">"ডেটা সফলভাবে %1$s তে লিখিত হয়েছে"</string>
+    <string name="brick_read_variable_from_file_top" tools:ignore="UnusedResources">পরিবর্তনশীল পড়ুন</string>
+    <string name="brick_read_variable_from_file_center" tools:ignore="UnusedResources">ফাইল থেকে</string>
     <string name="brick_read_variable_from_file_bottom" tools:ignore="UnusedResources">এবং</string>
-    <string name="brick_read_variable_from_file_keep">keep the file</string>
-    <string name="brick_read_variable_from_file_delete">delete the file</string>
-    <string name="brick_write_list_on_device" tools:ignore="UnusedResources">Write list on device</string>
-    <string name="brick_read_list_from_device" tools:ignore="UnusedResources">Read list from device</string>
+    <string name="brick_read_variable_from_file_keep">ফাইল রাখুন</string>
+    <string name="brick_read_variable_from_file_delete">ফাইলটি মুছুন</string>
+    <string name="brick_write_list_on_device" tools:ignore="UnusedResources">ডিভাইসে তালিকা লিখুন</string>
+    <string name="brick_read_list_from_device" tools:ignore="UnusedResources">ডিভাইস থেকে তালিকা পড়ুন</string>
     <string name="brick_note_default_value">এখানে মন্তব্য যুক্ত করুন &#8230;</string>
     <string name="brick_think_bubble_default_value">হ্যাঁ</string>
     <string name="brick_say_bubble_default_value">হ্যালো</string>
     <string name="brick_broadcast_default_value">"নতুন বার্তা"</string>
     <string name="brick_add_item_to_userlist_add" tools:ignore="UnusedResources">যোগ করুন</string>
     <string name="brick_add_item_to_userlist" tools:ignore="UnusedResources">তালিকায়</string>
-    <string name="brick_clear_userlist" tools:ignore="UnusedResources">Delete all items from list</string>
+    <string name="brick_clear_userlist" tools:ignore="UnusedResources">তালিকা থেকে সমস্ত আইটেম মুছুন</string>
     <string name="brick_delete_item_from_userlist_delete" tools:ignore="UnusedResources">তালিকা থেকে আইটেম মুছুন</string>
     <string name="brick_delete_item_from_userlist" tools:ignore="UnusedResources">অবস্থান</string>
     <string name="brick_insert_item_into_userlist_insert_into" tools:ignore="UnusedResources">প্রবেশ করান</string>
@@ -1019,82 +1019,81 @@
     <string name="brick_web_request" tools:ignore="UnusedResources">ওয়েব অনুরোধ পাঠান</string>
     <string name="brick_web_request_default_value">https://catrob.at/joke</string>
     <string name="brick_web_request_result" tools:ignore="UnusedResources">এবং সঞ্চয় উত্তর</string>
-    <string name="web_request_warning_title">Allow web access?</string>
-    <string name="web_request_warning_message">Be very careful before allowing access, since the
-        link may expose your personal information, such as your precise geographical location or any text
-        you have entered to malicious others or to the public. See our
-        &lt;a href=%1s&gt;wiki&lt;/a&gt; for more information why this can
-        be extremely dangerous.
+    <string name="web_request_warning_title">ওয়েব অ্যাক্সেসের অনুমতি দেবেন?</string>
+    <string name="web_request_warning_message">যেহেতু অ্যাক্সেসের অনুমতি দেওয়ার আগে খুব সাবধান হন
+        লিঙ্কটি আপনার ব্যক্তিগত তথ্য যেমন আপনার নির্দিষ্ট ভৌগলিক অবস্থান বা কোনও পাঠ্যকে প্রকাশ করতে পারে ose
+        আপনি দূষিত অন্যদের বা জনসাধারণের কাছে প্রবেশ করেছেন। আমাদের দেখতে
+        &lt;a href=%1s&gt;উইকি&lt;/a&gt;কেন এটি পারে আরও তথ্যের জন্য
+        অত্যন্ত বিপজ্জনক হতে।</string>
+    <string name="web_request_trust_domain_warning_title">সর্বদা ওয়েব অ্যাক্সেসের অনুমতি দেবেন?</string>
+    <string name="web_request_trust_domain_warning_message">সর্বদা অ্যাক্সেসের অনুমতি দিয়ে, আপনি পাবেন
+        এই ডোমেন থেকে ওয়েব ঠিকানাগুলি নিশ্চিত করতে আবার জিজ্ঞাসা করা হবে না।
     </string>
-    <string name="web_request_trust_domain_warning_title">Always allow web access?</string>
-    <string name="web_request_trust_domain_warning_message">By always allowing access, you will
-        not be asked again to confirm web addresses from this domain.
+    <string name="trusted_domains_edit_hint">আপনি যদি এই অনুমতি বাতিল করতে চান
+        পরে, আপনি এর মধ্যে বিশ্বস্ত ডোমেনগুলির তালিকা থেকে এন্ট্রিটি সরাতে পারেন
+        এই অ্যাপ্লিকেশন এর সেটিংস।
     </string>
-    <string name="trusted_domains_edit_hint">If you want to revoke this permission
-        later, you can remove the entry from the list of trusted domains in
-        the settings of this app.
-    </string>
-    <string name="brick_look_request" tools:ignore="UnusedResources">Get image from</string>
-    <string name="brick_look_request_result" tools:ignore="UnusedResources">and use as current look</string>
-    <string name="brick_background_request_result" tools:ignore="UnusedResources">and use as current background</string>
-    <string name="look_request_http_error_message">"Get image from %1$s returned HTTP error %2$s"</string>
-    <string name="look_request_type_error_message">"Get image from %1$s could not retrieve a recognized image format"</string>
-    <string name="brick_store_csv_into_userlist_store" tools:ignore="UnusedResources">Store column</string>
-    <string name="brick_store_csv_into_userlist_of" tools:ignore="UnusedResources">of the</string>
-    <string name="brick_store_csv_into_userlist_csv" tools:ignore="UnusedResources">comma-separated values</string>
+    <string name="brick_look_request" tools:ignore="UnusedResources">থেকে চিত্র পান</string>
+    <string name="brick_look_request_result" tools:ignore="UnusedResources">এবং বর্তমান চেহারা হিসাবে ব্যবহার করুন</string>
+    <string name="brick_background_request_result" tools:ignore="UnusedResources">এবং বর্তমান পটভূমি হিসাবে ব্যবহার করুন</string>
+    <string name="look_request_http_error_message">"%1$s এর থেকে পাওয়া HTTP ত্রুটি %2$s থেকে চিত্র পান"</string>
+    <string name="look_request_type_error_message">"%1$s থেকে চিত্র পান কোনও স্বীকৃত চিত্র বিন্যাস পুনরুদ্ধার করতে পারেনি"</string>
+    <string name="brick_store_csv_into_userlist_store" tools:ignore="UnusedResources">স্টোর কলাম</string>
+    <string name="brick_store_csv_into_userlist_of" tools:ignore="UnusedResources">এর</string>
+    <string name="brick_store_csv_into_userlist_csv" tools:ignore="UnusedResources">কমা পৃথক করা মান</string>
     <string name="brick_store_csv_into_userlist_into" tools:ignore="UnusedResources">তালিকায়</string>
-    <string name="brick_store_csv_into_userlist_data">kitty,cute\npuppy,naughty\noctopus,intelligent</string>
+    <string name="brick_store_csv_into_userlist_data">কিটি, চতুর\nকুকুরছানা, দুষ্টু\nঅক্টোপাস, বুদ্ধিমান</string>
     <!--  -->
     <!--Instruments-->
-    <string name="piano">piano</string>
-    <string name="electric_piano">electric piano</string>
-    <string name="cello">cello</string>
-    <string name="flute">flute</string>
-    <string name="vibraphone">vibraphone</string>
-    <string name="organ">organ</string>
-    <string name="guitar">guitar</string>
-    <string name="electric_guitar">electric guitar</string>
-    <string name="bass">bass</string>
-    <string name="pizzicato">pizzicato</string>
-    <string name="synth_pad">synth pad</string>
-    <string name="choir">choir</string>
-    <string name="synth_lead">synth lead</string>
-    <string name="wooden_flute">wooden flute</string>
-    <string name="trombone">trombone</string>
-    <string name="saxophone">saxophone</string>
-    <string name="bassoon">bassoon</string>
-    <string name="clarinet">clarinet</string>
-    <string name="music_box">music box</string>
-    <string name="steel_drum">steel drum</string>
-    <string name="marimba">marimba</string>
+    <string name="piano">পিয়ানো</string>
+    <string name="electric_piano">বৈদ্যুতিক পিয়ানো</string>
+    <string name="cello">সেলো</string>
+    <string name="flute">বাঁশি</string>
+    <string name="vibraphone">ভাইব্রাফোন</string>
+    <string name="organ">অঙ্গ</string>
+    <string name="guitar">গিটার</string>
+    <string name="electric_guitar">বৈদ্যুতিক গিটার</string>
+    <string name="bass">বাস</string>
+    <string name="pizzicato">পিজ্জাটো</string>
+    <string name="synth_pad">সিন্থ প্যাড</string>
+    <string name="choir">কোয়ার</string>
+    <string name="synth_lead">সিন্থ সীসা</string>
+    <string name="wooden_flute">কাঠের বাঁশি</string>
+    <string name="trombone">ট্রম্বোন</string>
+    <string name="saxophone">স্যাক্সোফোন</string>
+    <string name="bassoon">বসুন</string>
+    <string name="clarinet">শিরোনাম</string>
+    <string name="music_box">সঙ্গীতের ভান্ডার</string>
+    <string name="steel_drum">ইস্পাত ড্রাম</string>
+    <string name="marimba">মারিম্বা</string>
     <!--  -->
     <!--Drums-->
-    <string name="snare_drum">snare drum</string>
-    <string name="bass_drum">bass drum</string>
-    <string name="side_stick">side stick</string>
-    <string name="crash_cymbal">crash cymbal</string>
-    <string name="open_hi_hat">open hi-hat</string>
-    <string name="closed_hi_hat">closed hi-hat</string>
-    <string name="tambourine">tambourine</string>
-    <string name="hand_clap">hand clap</string>
-    <string name="claves">claves</string>
-    <string name="wood_block">wood block</string>
-    <string name="cowbell">cowbell</string>
-    <string name="triangle">triangle</string>
-    <string name="bongo">bongo</string>
-    <string name="conga">conga</string>
-    <string name="cabasa">cabasa</string>
-    <string name="guiro">guiro</string>
-    <string name="vibraslap">vibraslap</string>
-    <string name="open_cuica">open cuica</string>
+    <string name="snare_drum">ফাঁদ ড্রাম</string>
+    <string name="bass_drum">বাস ড্রাম</string>
+    <string name="side_stick">পাশের লাঠি</string>
+    <string name="crash_cymbal">ক্র্যাশ সিম্বল</string>
+    <string name="open_hi_hat">হাই-টুপি খুলুন</string>
+    <string name="closed_hi_hat">বন্ধ হাই-টুপি</string>
+    <string name="tambourine">টাম্বুরিন</string>
+    <string name="hand_clap">হাত তালি</string>
+    <string name="claves">নখর</string>
+    <string name="wood_block">কাঠের টুকরা</string>
+    <string name="cowbell">কাওবেল</string>
+    <string name="triangle">ত্রিভুজ</string>
+    <string name="bongo">বনগো</string>
+    <string name="conga">কঙ্গা</string>
+    <string name="cabasa">ক্যাবসা</string>
+    <string name="guiro">গিরো</string>
+    <string name="vibraslap">ভাইরাসল্যাপ</string>
+    <string name="open_cuica">কুইকা খুলুন</string>
     <!--  -->
     <!-- Default Values -->
-    <string name="default_project_name">My project</string>
-    <string name="default_variable_name">Variable</string>
+    <string name="default_project_name">আমার প্রকল্প</string>
+    <string name="default_variable_name">পরিবর্তনশীল</string>
     <string name="default_scene_name">দৃশ্য (%1$d)</string>
-    <string name="default_script_group_name">Script group</string>
+    <string name="default_script_group_name">স্ক্রিপ্ট গ্রুপ</string>
     <string name="default_broadcast_message_name">বার্তা</string>
-    <string name="default_list_name">List</string>
+    <string name="default_list_name">তালিকা</string>
     <string name="default_project_background_name">ব্যাকগ্রাউন্ড</string>
     <string name="default_project_cloud_name">ক্লাউড</string>
     <string name="default_project_cloud_sprite_name_1">ক্লাউড1</string>
@@ -1105,11 +1104,11 @@
     <string name="default_project_sprites_tweet_1">টুইট১</string>
     <string name="default_project_sprites_tweet_2">টুইট২</string>
     <!--suppress UnusedResources -->
-    <string name="default_project_needle_name">Needle</string>
+    <string name="default_project_needle_name">সুই</string>
     <!--suppress UnusedResources -->
-    <string name="default_project_outer_loop">Outer Loop</string>
+    <string name="default_project_outer_loop">আউটার লুপ</string>
     <!--suppress UnusedResources -->
-    <string name="default_project_inner_loop">Inner Loop</string>
+    <string name="default_project_inner_loop">ইনার লুপ</string>
     <!-- Default ChromeCast Values -->
     <string name="default_cast_project_background_name">ব্যাকগ্রাউন্ড</string>
     <string name="default_cast_project_cloud_name">ক্লাউড</string>
@@ -1178,9 +1177,9 @@
     <!-- Error messages -->
     <string name="error_project_upload">প্রজেক্টটি আপলোড করার সময় কিছু ভুল হয়েছে।</string>
     <string name="error_project_download">প্রজেক্টটি ডাউনলোড করার সময় কিছু ভুল হয়েছে।</string>
-    <string name="error_project_already_in_queue">"Project %s already in queue."</string>
-    <string name="error_could_not_decode_project_name_from_url">"Your download could not be
-        started, seems there is a problem with our server."</string>
+    <string name="error_project_already_in_queue">"প্রকল্প %s ইতিমধ্যে সারিতে রয়েছে।"</string>
+    <string name="error_could_not_decode_project_name_from_url">"আপনার ডাউনলোড হতে পারে না
+        শুরু হয়েছে, আমাদের সার্ভারে সমস্যা আছে বলে মনে হচ্ছে "</string>
     <string name="error_new_project">একটি নতুন প্রজেক্ট তৈরি করার সময় কিছু ভুল হয়েছে।</string>
     <string name="error_rename_scene">দৃশ্যটির নামকরণের সময় কিছু ভুল হয়েছে।</string>
     <string name="error_load_project">প্রজেক্টটি লোড করার সময় কিছু ভুল হয়েছে।</string>
@@ -1194,13 +1193,13 @@
     <string name="error_copying_brick">এই ব্রিকটি অনুলিপি করার সময় কিছু ভুল হয়েছে।</string>
     <string name="error_rename_incompatible_project">একটি অসঙ্গত প্রকল্পের নামকরণ সম্ভব নয়।</string>
     <string name="error_embroidery_file_export">সূচিকর্ম ফাইলটি শেয়ার করার সময় কিছু ভুল হয়েছে।</string>
-    <string name="error_embroidery_file_write">Something went wrong while writing the embroidery file.</string>
-    <string name="error_embroidery_data_not_found">Embroidery is missing.</string>
+    <string name="error_embroidery_file_write">এমব্রয়ডারি ফাইলটি লেখার সময় কিছু ভুল হয়েছে।</string>
+    <string name="error_embroidery_data_not_found">এমব্রয়ডারি অনুপস্থিত।</string>
     <string name="error_unknown_error">কিছু একটা ভুল হয়েছে</string>
     <string name="error_gps_not_available">জিওলোকেশন ডাটা পাওয়া যায়নি</string>
     <string name="error_set_description">নতুন বিবরণটি সংরক্ষণ করার সময় কিছু ভুল হয়েছে।</string>
-    <string name="error_set_notes_and_credits">Something went wrong while saving the new notes
-        and credits.</string>
+    <string name="error_set_notes_and_credits">নতুন নোট সংরক্ষণ করার সময় কিছু ভুল হয়েছে
+        এবং ক্রেডিট</string>
     <string name="error_no_whatsapp">হোয়াটসঅ্যাপ ইনস্টল করা হয়নি</string>
     <string name="error_unsupported_bricks_chromecast">এই স্ক্রিপ্টটি কোনও ক্রোমকাস্ট প্রকল্পে যুক্ত করা যাবে না।</string>
     <!--  -->
@@ -1506,8 +1505,8 @@
     <string name="formula_editor_function_max_parameter">(৫,৪)</string>
     <string name="formula_editor_function_min" tools:ignore="UnusedResources">সর্বনিম্ন</string>
     <string name="formula_editor_function_min_parameter">(৭,২)</string>
-    <string name="formula_editor_function_if_then_else">if then else</string>
-    <string name="formula_editor_function_if_then_else_parameter">(false, 2, 3)</string>
+    <string name="formula_editor_function_if_then_else">অন্যথায় যদি</string>
+    <string name="formula_editor_function_if_then_else_parameter">(মিথ্যা, 2, 3)</string>
     <string name="formula_editor_function_true" tools:ignore="UnusedResources">সত্য</string>
     <string name="formula_editor_function_false" tools:ignore="UnusedResources">মিথ্যা</string>
     <string name="formula_editor_function_length" tools:ignore="UnusedResources">দৈর্ঘ্য</string>
@@ -1517,16 +1516,16 @@
     <string name="formula_editor_function_join" tools:ignore="UnusedResources">যোগদান করা</string>
     <string name="formula_editor_function_join_parameter">(\'ওহে বিশ্ব\')</string>
     <string name="formula_editor_function_join3">যোগদান করা</string>
-    <string name="formula_editor_function_join3_parameter">(\'hello\',\' world\',\'!\')</string>
+    <string name="formula_editor_function_join3_parameter">(\'ওহে বিশ্ব\',\'!\')</string>
     <string name="formula_editor_function_regex" tools:ignore="UnusedResources">নিয়মিত অভিব্যক্তি</string>
     <string name="formula_editor_function_regex_parameter">(\'এ? ([^।]] +)\', \'আমি পান্ডা।\')</string>
-    <string name="formula_editor_function_regex_assistant">Regular expression
-        assistant</string>
-    <string name="formula_editor_dialog_regular_expression_assistant_title">Regular
-        expression assistant</string>
+    <string name="formula_editor_function_regex_assistant">নিয়মিত প্রকাশ
+        সহকারী</string>
+    <string name="formula_editor_dialog_regular_expression_assistant_title">নিয়মিত
+        অভিব্যক্তি সহকারী</string>
     <string name="formula_editor_dialog_wiki_button">আরো তথ্য</string>
-    <string name="formula_editor_function_regex_html_extractor_not_found">The keyword could not be found.</string>
-    <string name="formula_editor_function_regex_json_extractor_title">JSON extractor</string>
+    <string name="formula_editor_function_regex_html_extractor_not_found">কীওয়ার্ডটি পাওয়া যায়নি।</string>
+    <string name="formula_editor_function_regex_json_extractor_title">জেএসএন এক্সট্র্যাক্টর</string>
     <string name="formula_editor_function_arduino_read_pin_value_digital" tools:ignore="UnusedResources">আরডুইনো ডিজিটাল পিন</string>
     <string name="formula_editor_function_arduino_read_pin_value_analog" tools:ignore="UnusedResources">আরডুইনো এনালগ পিন</string>
     <string name="formula_editor_function_raspi_read_pin_value_digital" tools:ignore="UnusedResources">রাস্পবেরি পাই পিন</string>
@@ -1538,26 +1537,26 @@
     <string name="formula_editor_function_multi_finger_y" tools:ignore="UnusedResources">মঞ্চ স্পর্শ y</string>
     <string name="formula_editor_function_is_multi_finger_touching" tools:ignore="UnusedResources">মঞ্চ স্পর্শ করা হয়</string>
     <string name="formula_editor_function_index_of_last_finger" tools:ignore="UnusedResources">শেষ পর্যায়ে টাচ সূচক</string>
-    <string name="formula_editor_function_number_of_current_touches">number of current touches</string>
-    <string name="formula_editor_function_index_of_current_touch">index of current touch</string>
+    <string name="formula_editor_function_number_of_current_touches">বর্তমান স্পর্শ সংখ্যা</string>
+    <string name="formula_editor_function_index_of_current_touch">বর্তমান স্পর্শ সূচক</string>
     <string name="formula_editor_function_no_parameter"></string>
     <string name="formula_editor_function_touch_parameter">(১)</string>
     <string name="formula_editor_function_list_item" tools:ignore="UnusedResources">বস্তু</string>
     <string name="formula_editor_function_list_item_parameter">(১, * তালিকার নাম *)</string>
     <string name="formula_editor_function_contains" tools:ignore="UnusedResources">ধারণ করে</string>
     <string name="formula_editor_function_contains_parameter">(* তালিকার নাম *,১)</string>
-    <string name="formula_editor_function_index_of_item" tools:ignore="UnusedResources">item\'s index</string>
+    <string name="formula_editor_function_index_of_item" tools:ignore="UnusedResources">আইটেমের সূচক</string>
     <string name="formula_editor_function_index_of_item_parameter">(১, * তালিকার নাম *)</string>
     <string name="formula_editor_function_number_of_items" tools:ignore="UnusedResources">আইটেমের সংখ্যা</string>
     <string name="formula_editor_function_number_of_items_parameter">(* তালিকার নাম *)</string>
     <string name="formula_editor_function_collision">অভিনেতা বা বস্তুকে স্পর্শ করে</string>
     <string name="formula_editor_function_collides_with_edge" tools:ignore="UnusedResources">প্রান্ত স্পর্শ</string>
     <string name="formula_editor_function_touched" tools:ignore="UnusedResources">আঙুল স্পর্শ করে</string>
-    <string name="formula_editor_function_collides_with_color">touches color</string>
-    <string name="formula_editor_function_color_touches_color">color touches color</string>
-    <string name="formula_editor_sensor_color_at_x_y">color at x y</string>
-    <string name="formula_editor_sensor_color_equals_color" tools:ignore="UnusedResources">color equals color with %
-        tolerance</string>
+    <string name="formula_editor_function_collides_with_color">ছোঁয়া রঙ</string>
+    <string name="formula_editor_function_color_touches_color">রঙ রঙ ছোঁয়া</string>
+    <string name="formula_editor_sensor_color_at_x_y">এক্স ওয়ায় রঙ</string>
+    <string name="formula_editor_sensor_color_equals_color" tools:ignore="UnusedResources">% এর সাথে রঙ সমান
+        সহনশীলতা</string>
     <string name="formula_editor_sensor_x_acceleration" tools:ignore="UnusedResources">ত্বরণ x</string>
     <string name="formula_editor_sensor_y_acceleration" tools:ignore="UnusedResources">ত্বরণ y</string>
     <string name="formula_editor_sensor_z_acceleration" tools:ignore="UnusedResources">ত্বরণ z</string>
@@ -1566,11 +1565,11 @@
     <string name="formula_editor_sensor_longitude" tools:ignore="UnusedResources">দ্রাঘিমাংশ</string>
     <string name="formula_editor_sensor_location_accuracy" tools:ignore="UnusedResources">অবস্থান নির্ভুলতা</string>
     <string name="formula_editor_sensor_altitude" tools:ignore="UnusedResources">উচ্চতা</string>
-    <string name="formula_editor_sensor_user_language">user language</string>
+    <string name="formula_editor_sensor_user_language">ব্যবহারকারী ভাষা</string>
     <string name="formula_editor_sensor_x_inclination" tools:ignore="UnusedResources">প্রবণতা x</string>
     <string name="formula_editor_sensor_y_inclination" tools:ignore="UnusedResources">প্রবণতা y</string>
     <string name="formula_editor_sensor_loudness" tools:ignore="UnusedResources">শব্দের মাত্রা</string>
-    <string name="formula_editor_sensor_timer">timer</string>
+    <string name="formula_editor_sensor_timer">টাইমার</string>
     <string name="formula_editor_sensor_date_year" tools:ignore="UnusedResources">বছর</string>
     <string name="formula_editor_sensor_date_month" tools:ignore="UnusedResources">মাস</string>
     <string name="formula_editor_sensor_date_day" tools:ignore="UnusedResources">দিন</string>
@@ -1633,6 +1632,7 @@
     <string name="formula_editor_object_brightness" tools:ignore="UnusedResources">উজ্জ্বলতা</string>
     <string name="formula_editor_object_size" tools:ignore="UnusedResources">আকার</string>
     <string name="formula_editor_object_rotation" tools:ignore="UnusedResources">গতিপথ</string>
+    <string name="formula_editor_object_rotation_look" tools:ignore="UnusedResources">দিক দেখুন</string>
     <string name="formula_editor_object_layer" tools:ignore="UnusedResources">স্তর</string>
     <string name="formula_editor_object_x_velocity" tools:ignore="UnusedResources">x বেগ</string>
     <string name="formula_editor_object_y_velocity" tools:ignore="UnusedResources">y বেগ</string>
@@ -1653,10 +1653,10 @@
     <string name="formula_editor_functions_lists">তালিকা</string>
     <string name="formula_editor_logic_boolean">লজিকাল (বুলিয়ান) অপারেটর এবং ধ্রুবক</string>
     <string name="formula_editor_logic_comparison">তুলনা অপারেটর</string>
-    <string name="formula_editor_object_look">Look properties</string>
+    <string name="formula_editor_object_look">বৈশিষ্ট্যগুলি দেখুন</string>
     <string name="formula_editor_object_movement">গতি বৈশিষ্ট্য</string>
-    <string name="formula_editor_device_face_detection">Face detection</string>
-    <string name="formula_editor_device_text_recognition">Text recognition</string>
+    <string name="formula_editor_device_face_detection">মুখ সনাক্তকরণ</string>
+    <string name="formula_editor_device_text_recognition">পাঠ্য স্বীকৃতি</string>
     <string name="formula_editor_device_date_and_time">তারিখ এবং সময়</string>
     <string name="formula_editor_device_touch_detection">স্পর্শ সনাক্তকরণ</string>
     <string name="formula_editor_device_lego_nxt">লেগো মাইন্ডস্টর্ম এনএক্সটি</string>
@@ -1683,34 +1683,34 @@
     <string name="formula_editor_operator_divide" tools:ignore="UnusedResources">÷</string>
     <string name="formula_editor_operator_power" tools:ignore="UnusedResources">^</string>
     <string name="formula_editor_image_button_description_delete">মুছুন</string>
-    <string name="formula_editor_image_button_description_color_picker">color picker</string>
-    <string name="formula_editor_image_button_description_functions_toggle">toggle functions</string>
+    <string name="formula_editor_image_button_description_color_picker">রঙ বাছাইকারী</string>
+    <string name="formula_editor_image_button_description_functions_toggle">টগল ফাংশন</string>
     <string name="formula_editor_variable_dialog_title">নতুন ভেরিয়েবল</string>
     <string name="formula_editor_list_dialog_title">নতুন তালিকা</string>
-    <string name="formula_editor_regex_html_extractor_dialog_title">HTML extractor</string>
+    <string name="formula_editor_regex_html_extractor_dialog_title">এইচটিএমএল এক্সট্র্যাক্টর</string>
     <string name="formula_editor_discard_changes_dialog_message">আপনি কি আপনার পরিবর্তনগুলি সংরক্ষণ করতে চান?</string>
     <string name="formula_editor_discard_changes_dialog_title">পরিবর্তনগুলোর সংরক্ষন?</string>
     <string name="formula_editor_new_string_name">নতুন পাঠ্য</string>
     <string name="formula_editor_dialog_change_text">পাঠ্য পরিবর্তন করুন</string>
-    <string name="formula_editor_dialog_change_regular_expression">Change regular
-        expression</string>
+    <string name="formula_editor_dialog_change_regular_expression">নিয়মিত পরিবর্তন করুন
+        অভিব্যক্তি</string>
     <string name="formula_editor_fragment_data_current_items">বর্তমান আইটেম</string>
     <string name="formula_editor_data_dialog_is_list">এটি একটি তালিকা তৈরি করুন</string>
     <string name="formula_editor_sensor_face_detected" tools:ignore="UnusedResources">চেহারা দৃশ্যমান হয়</string>
     <string name="formula_editor_sensor_face_size" tools:ignore="UnusedResources">মুখের আকার</string>
     <string name="formula_editor_sensor_face_x_position" tools:ignore="UnusedResources">মুখ x অবস্থান</string>
     <string name="formula_editor_sensor_face_y_position" tools:ignore="UnusedResources">মুখ y অবস্থান</string>
-    <string name="formula_editor_sensor_second_face_detected">second face is visible</string>
-    <string name="formula_editor_sensor_second_face_size">second face size</string>
-    <string name="formula_editor_sensor_second_face_x_position">second face x position</string>
-    <string name="formula_editor_sensor_second_face_y_position">second face y position</string>
-    <string name="formula_editor_sensor_text_from_camera">text from camera</string>
-    <string name="formula_editor_sensor_text_blocks_number">number of text blocks</string>
-    <string name="formula_editor_function_text_block_x">text block x from camera</string>
-    <string name="formula_editor_function_text_block_y">text block y from camera</string>
-    <string name="formula_editor_function_text_block_size">text block size from camera</string>
-    <string name="formula_editor_function_text_block_from_camera">text block from camera</string>
-    <string name="formula_editor_function_text_block_language_from_camera">text block language from camera</string>
+    <string name="formula_editor_sensor_second_face_detected">দ্বিতীয় চেহারা দৃশ্যমান হয়</string>
+    <string name="formula_editor_sensor_second_face_size">দ্বিতীয় মুখের আকার</string>
+    <string name="formula_editor_sensor_second_face_x_position">দ্বিতীয় মুখ এক্স অবস্থান</string>
+    <string name="formula_editor_sensor_second_face_y_position">দ্বিতীয় মুখ y অবস্থান</string>
+    <string name="formula_editor_sensor_text_from_camera">ক্যামেরা থেকে পাঠ্য</string>
+    <string name="formula_editor_sensor_text_blocks_number">পাঠ্য ব্লকের সংখ্যা</string>
+    <string name="formula_editor_function_text_block_x">ক্যামেরা থেকে টেক্সট ব্লক এক্স</string>
+    <string name="formula_editor_function_text_block_y">ক্যামেরা থেকে পাঠ্য ব্লক y</string>
+    <string name="formula_editor_function_text_block_size">ক্যামেরা থেকে পাঠ্য ব্লক আকার</string>
+    <string name="formula_editor_function_text_block_from_camera">ক্যামেরা থেকে পাঠ্য ব্লক</string>
+    <string name="formula_editor_function_text_block_language_from_camera">ক্যামেরা থেকে পাঠ্য ব্লক ভাষা</string>
     <string name="formula_editor_function_text_block_parameter">(১)</string>
     <string name="formula_editor_intro_title_formula_editor">সূত্র সম্পাদক</string>
     <string name="formula_editor_intro_summary_formula_editor">সূত্র সম্পাদক সহ আপনি গাণিতিক এবং যৌক্তিক সূত্রগুলি তৈরি করতে পারেন যা আপনি নিজের ব্রিকগুলিতে ব্যবহার করতে পারেন। নীচের ডান কোণে \"Next\" বোতামটি আলতো চাপ দিয়ে আপনি এই সামান্য পরিচিতিটি চালিয়ে যেতে পারেন এবং নীচে বাম কোণে \"SKIP\" বোতামটি ক্লিক করে আপনি এড়িয়ে যেতে পারেন।</string>
@@ -1730,11 +1730,11 @@
     <string name="formula_editor_intro_summary_device">\"সেন্সরগুলি\" তে আপনি এমন তথ্য খুঁজে পেতে পারেন যা আপনার ডিভাইস রেকর্ড করে। উদাহরণস্বরূপ, আপনার ডিভাইসের টিল্ট বা আপনার চারপাশের উচ্চতা।</string>
     <string name="formula_editor_intro_title_data">তথ্য</string>
     <string name="formula_editor_intro_summary_data">আপনার প্রকল্পে ব্যবহৃত ভেরিয়েবল এবং তালিকাগুলি এখানে পাওয়া যাবে। আপনি এগুলি কেবল আপনার সূত্রে সন্নিবেশ করতে পারেন বা একটি নতুন যুক্ত করতে পারেন।</string>
-    <string name="formula_editor_listening_language_sensor">listening language</string>
-    <string name="formula_editor_speech_recognition">Speech recognition</string>
+    <string name="formula_editor_listening_language_sensor">শোনা ভাষা</string>
+    <string name="formula_editor_speech_recognition">কন্ঠ সনান্তকরণ</string>
     <string name="camera_error_text_detection">        There was a problem with text detection. Some components may still be downloading in the
         background. Please make sure you are connected to the internet and check back later.</string>
-    <string name="formula_editor_function_flatten">flatten</string>
+    <string name="formula_editor_function_flatten">সমতল করা</string>
     <string name="formula_editor_function_flatten_parameter">(* তালিকার নাম *)</string>
     <!--  -->
     <!-- Brick Data Editor Strings -->
@@ -1748,7 +1748,7 @@
     <string name="brick_show_variable_aligned_left" tools:ignore="UnusedResources">বাম</string>
     <string name="brick_show_variable_aligned_right" tools:ignore="UnusedResources">ডান</string>
     <string name="brick_context_dialog_pick_color">রং বাছাই</string>
-    <string name="brick_context_dialog_pick_note">Pick note</string>
+    <string name="brick_context_dialog_pick_note">নোট বাছাই করুন</string>
     <!-- -->
     <!-- Camera related strings -->
     <string name="brick_video" tools:ignore="UnusedResources">ক্যামেরা ঘুরুন</string>
@@ -1781,22 +1781,22 @@
     <string name="cast_connection_timout_msg">সংযোগ ব্যর্থ হয়েছে, অনুগ্রহ করে আবার চেষ্টা করুন।</string>
     <string name="cast_screen_pause_text">থামা</string>
     <!-- -->
-    <string name="deletion_alert_title">Delete?</string>
-    <string name="deletion_alert_text">Deleting a variable or list that is still in use can cause
-        errors. You can\'t undo this!</string>
+    <string name="deletion_alert_title">মুছে ফেলা?</string>
+    <string name="deletion_alert_text">এখনও ব্যবহারের মধ্যে থাকা কোনও ভেরিয়েবল বা তালিকা মোছার কারণ হতে পারে
+        ত্রুটি আপনি এটিকে পূর্বাবস্থায় ফেরাতে পারবেন না!</string>
     <!-- Upload progress dialog -->
     <string name="progress_upload_dialog_message">আপনার প্রজেক্টি অ্যাপ্লিকেশনটির শেয়ার করে নেওয়ার সাইটে আপলোড হবে যেখানে অন্যরা এটি ব্যবহার এবং ডাউনলোড করতে পারে। আপনি নিজের প্রজেক্টি একটি স্বতন্ত্র অ্যাপ্লিকেশন হিসাবে ডাউনলোড করতে পারেন।</string>
     <string name="progress_upload_dialog_failed">আপলোড ব্যর্থ হয়েছে। আপনার সংযোগ পরীক্ষা করুন এবং আবার চেষ্টা করুন।</string>
     <string name="progress_upload_dialog_show_program">প্রজেক্টি দেখান</string>
     <!--  -->
     <!-- unchanged upload dialog -->
-    <string name="unchanged_upload_warning">The project you are trying to upload already exists on
-        the community platform in exactly the same form. Please change your project, ideally by
-        enhancing it, before uploading your remixed project.</string>
-    <string name="unchanged_upload_info">Please consider adding some kind words towards the original
-        author in the Credits section on the community site or in the project options. Please note
-        that the user will get a notification after your successful upload.</string>
-    <string name="unchanged_upload_url">To learn more about remixes, please visit %1s.</string>
+    <string name="unchanged_upload_warning">আপনি যে প্রকল্পটি আপলোড করার চেষ্টা করছেন তা ইতিমধ্যে বিদ্যমান
+        সম্প্রদায়ের প্ল্যাটফর্মটি ঠিক একই আকারে। আপনার প্রকল্পটি আদর্শভাবে দ্বারা পরিবর্তন করুন
+        আপনার রিমিক্সড প্রকল্প আপলোড করার আগে এটি বাড়িয়ে তোলা।</string>
+    <string name="unchanged_upload_info">আসল দিকে কিছু দয়া করে শব্দ যুক্ত করার বিষয়টি দয়া করে বিবেচনা করুন
+        সম্প্রদায় সাইটে ক্রেডিট বিভাগে বা প্রকল্পের বিকল্পগুলির লেখক। দয়া করে নোট করুন
+        আপনার সফল আপলোডের পরে ব্যবহারকারী একটি বিজ্ঞপ্তি পাবেন।</string>
+    <string name="unchanged_upload_url">রিমিক্স সম্পর্কে আরও জানতে, দয়া করে %1s দেখুন।</string>
     <!-- -->
     <!-- Snackbar hints -->
     <string name="got_it">বুঝেছি</string>
@@ -1810,12 +1810,12 @@
     <string name="hint_objects">আপনার প্রোগ্রামে বিভিন্ন অভিনেতা এবং অবজেক্ট রয়েছে যা একে অপরের সাথে ইন্টারঅ্যাক্ট করতে পারে। নতুন অভিনেতা বা বস্তু যুক্ত করতে, \"+\" চিহ্নটি আলতো চাপুন।</string>
     <!--  -->
     <!-- Dialog Disable hints -->
-    <string name="dialog_disable_hints_title">Show hints?</string>
-    <string name="dialog_disable_hints_text">Hints provide you with helpful information
-        while making your first project.\n\nVisibility of hints can be changed in the
-        settings.</string>
-    <string name="dialog_disable_hints_button_hide">HIDE</string>
-    <string name="dialog_disable_hints_button_show">SHOW</string>
+    <string name="dialog_disable_hints_title">ইঙ্গিত দেখাবেন?</string>
+    <string name="dialog_disable_hints_text">ইঙ্গিতগুলি আপনাকে সহায়ক তথ্য সরবরাহ করে
+        আপনার প্রথম প্রকল্পটি তৈরি করার সময় \n\nইঙ্গিতগুলির দৃশ্যমানতা এ-তে পরিবর্তন করা যেতে পারে
+        সেটিংস.</string>
+    <string name="dialog_disable_hints_button_hide">লুকান</string>
+    <string name="dialog_disable_hints_button_show">দেখান</string>
     <!--  -->
     <!-- Crash report dialog -->
     <!--  -->
@@ -1824,16 +1824,18 @@
     <!-- Symbols -->
     <string name="percent_symbol">%</string>
     <string name="hertz_symbol" tools:ignore="UnusedResources">হের্ত্স্</string>
-    <string name="no_internet_connection">No internet connection. Make sure Wi-Fi or mobile
-    data is turned on.</string>
+    <string name="no_internet_connection">কোনও ইন্টারনেট সংযোগ নেই। ওয়াই-ফাই বা মোবাইল নিশ্চিত করুন
+    তথ্য চালু আছে।</string>
     <string name="edit">সম্পাদনা করুন</string>
-    <string name="data_value">Value</string>
-    <string name="category_recently_used">Recently used</string>
-    <string name="new_sprite_dialog_place_visually">Place visually</string>
-    <string name="place_visually_text">You will be asked to place the new actor or object on the
-        stage.</string>
+    <string name="data_value">মান</string>
+    <string name="category_recently_used">সম্প্রতি ব্যবহৃত</string>
+    <string name="new_sprite_dialog_place_visually">দর্শনীয়ভাবে রাখুন</string>
+    <string name="place_visually_text">আপনাকে নতুন অভিনেতা বা আপত্তি রাখতে বলা হবে
+        মঞ্চ</string>
     <!-- Information -->
-    <string name="no_variable_selected">No variable selected</string>
-    <string name="find">Find</string>
-    <string name="no_results_found">No results found</string>
+    <string name="no_variable_selected">কোনও ভেরিয়েবল নির্বাচন করা হয়নি</string>
+    <string name="find">অনুসন্ধান</string>
+    <string name="no_results_found">কোন ফলাফল পাওয়া যায়নি</string>
+    <string name="cut">কাটা</string>
+    <string name="paste">আটকান</string>
 </resources>

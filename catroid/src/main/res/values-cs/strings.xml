@@ -1756,6 +1756,7 @@ needs read and write access to it. You can always change permissions through you
     <string name="formula_editor_object_brightness" tools:ignore="UnusedResources">Jas</string>
     <string name="formula_editor_object_size" tools:ignore="UnusedResources">Velikost</string>
     <string name="formula_editor_object_rotation" tools:ignore="UnusedResources">směr</string>
+    <string name="formula_editor_object_rotation_look" tools:ignore="UnusedResources">look direction</string>
     <string name="formula_editor_object_layer" tools:ignore="UnusedResources">vrstva</string>
     <string name="formula_editor_object_x_velocity" tools:ignore="UnusedResources">x_rychlost</string>
     <string name="formula_editor_object_y_velocity" tools:ignore="UnusedResources">y_velocity</string>
@@ -1975,4 +1976,6 @@ needs read and write access to it. You can always change permissions through you
     <string name="no_variable_selected">No variable selected</string>
     <string name="find">Find</string>
     <string name="no_results_found">No results found</string>
+    <string name="cut">Cut</string>
+    <string name="paste">Paste</string>
 </resources>

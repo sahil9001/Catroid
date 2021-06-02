@@ -1673,6 +1673,7 @@ needs read and write access to it. You can always change permissions through you
     <string name="formula_editor_object_brightness" tools:ignore="UnusedResources">brightness</string>
     <string name="formula_editor_object_size" tools:ignore="UnusedResources">size</string>
     <string name="formula_editor_object_rotation" tools:ignore="UnusedResources">رستو</string>
+    <string name="formula_editor_object_rotation_look" tools:ignore="UnusedResources">look direction</string>
     <string name="formula_editor_object_layer" tools:ignore="UnusedResources">layer</string>
     <string name="formula_editor_object_x_velocity" tools:ignore="UnusedResources">x velocity</string>
     <string name="formula_editor_object_y_velocity" tools:ignore="UnusedResources">y velocity</string>
@@ -1729,7 +1730,7 @@ needs read and write access to it. You can always change permissions through you
     <string name="formula_editor_list_dialog_title">New list</string>
     <string name="formula_editor_regex_html_extractor_dialog_title">HTML extractor</string>
     <string name="formula_editor_discard_changes_dialog_message">Do you want to save your changes?</string>
-    <string name="formula_editor_discard_changes_dialog_title">Save changes?</string>
+    <string name="formula_editor_discard_changes_dialog_title">ڇا تبديليون محفوظ ٿين?</string>
     <string name="formula_editor_new_string_name">New text</string>
     <string name="formula_editor_dialog_change_text">Change text</string>
     <string name="formula_editor_dialog_change_regular_expression">Change regular
@@ -1896,4 +1897,6 @@ needs read and write access to it. You can always change permissions through you
     <string name="no_variable_selected">No variable selected</string>
     <string name="find">Find</string>
     <string name="no_results_found">No results found</string>
+    <string name="cut">Cut</string>
+    <string name="paste">Paste</string>
 </resources>
